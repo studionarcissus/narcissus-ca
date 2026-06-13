@@ -1,10 +1,15 @@
- <!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Narcissus | Self-Love, Boxed.</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<title>Narcissus | Self-Love, Boxed.</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"><style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
 
 :root{
 --cream:#f8f4ef;
@@ -12,14 +17,9 @@
 --text:#2d2a26;
 --muted:#77706a;
 --accent:#c9b8a3;
---white:#ffffff;
 }
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+*{margin:0;padding:0;box-sizing:border-box;}
 
 body{
 font-family:'Inter',sans-serif;
@@ -28,40 +28,24 @@ background:#fff;
 line-height:1.7;
 }
 
-img{
-width:100%;
-display:block;
-}
+img{width:100%;display:block;}
 
 .container{
 width:min(1200px,92%);
 margin:auto;
 }
 
-section{
-padding:100px 0;
-}
+section{padding:100px 0;}
 
 h1,h2,h3{
 font-family:'Cormorant Garamond',serif;
 font-weight:600;
-letter-spacing:.5px;
 }
 
-h1{
-font-size:clamp(3rem,8vw,6rem);
-line-height:1;
-}
+h1{font-size:clamp(3rem,8vw,6rem);line-height:1;}
+h2{font-size:clamp(2.3rem,5vw,4rem);margin-bottom:20px;}
 
-h2{
-font-size:clamp(2.3rem,5vw,4rem);
-margin-bottom:20px;
-}
-
-p{
-color:var(--muted);
-font-size:1.05rem;
-}
+p{color:var(--muted);font-size:1.05rem;}
 
 header{
 position:fixed;
@@ -76,24 +60,15 @@ border-bottom:1px solid rgba(0,0,0,.05);
 .nav{
 height:80px;
 display:flex;
-align-items:center;
 justify-content:space-between;
+align-items:center;
 }
 
-.logo{
-height:48px;
-width:auto;
-}
+.logo{height:48px;width:auto;}
 
-.instagram{
-text-decoration:none;
-color:var(--text);
-font-size:.95rem;
-}
+.instagram{text-decoration:none;color:var(--text);}
 
-.hero{
-padding-top:120px;
-}
+.hero{padding-top:120px;}
 
 .hero-grid{
 display:grid;
@@ -102,59 +77,25 @@ gap:70px;
 align-items:center;
 }
 
-.hero-image{
-border-radius:28px;
-overflow:hidden;
-box-shadow:0 25px 60px rgba(0,0,0,.08);
-}
-
-.hero-text p{
-max-width:500px;
-margin:25px 0;
-}
-
-.btns{
-display:flex;
-gap:15px;
-flex-wrap:wrap;
-margin-top:25px;
-}
+.hero-image{border-radius:28px;overflow:hidden;}
 
 .btn{
 padding:14px 28px;
 border-radius:999px;
 text-decoration:none;
-transition:.3s;
 font-weight:500;
 }
 
-.btn-primary{
-background:var(--text);
-color:white;
-}
+.btn-primary{background:var(--text);color:#fff;}
+.btn-secondary{border:1px solid #ddd;color:var(--text);}
 
-.btn-primary:hover{
-transform:translateY(-2px);
-}
-
-.btn-secondary{
-border:1px solid #ddd;
-color:var(--text);
-}
-
-.story{
-background:var(--cream);
-}
+.story{background:var(--cream);}
 
 .story-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:60px;
 align-items:center;
-}
-
-.story img{
-border-radius:24px;
 }
 
 .features{
@@ -165,30 +106,17 @@ gap:30px;
 
 .feature{
 padding:40px;
-background:#fff;
-border-radius:24px;
 border:1px solid #eee;
+border-radius:24px;
 }
 
-.feature h3{
-font-size:2rem;
-margin-bottom:10px;
-}
-
-.collections{
-background:var(--warm);
-}
+.collections{background:var(--warm);}
 
 .collection{
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:60px;
-align-items:center;
 margin-bottom:80px;
-}
-
-.collection img{
-border-radius:24px;
 }
 
 .gallery{
@@ -197,27 +125,17 @@ grid-template-columns:repeat(2,1fr);
 gap:25px;
 }
 
-.gallery img{
-border-radius:20px;
-}
-
 .waitlist{
 background:var(--text);
-color:white;
+color:#fff;
 text-align:center;
-}
-
-.waitlist p{
-color:rgba(255,255,255,.75);
-max-width:650px;
-margin:20px auto;
 }
 
 .email-box{
 display:flex;
 justify-content:center;
-margin-top:30px;
 gap:10px;
+margin-top:30px;
 flex-wrap:wrap;
 }
 
@@ -235,98 +153,89 @@ border-radius:999px;
 cursor:pointer;
 }
 
-footer{
-padding:50px 0;
-text-align:center;
-background:#fafafa;
-}
-
-.tagline{
-margin-top:10px;
-font-style:italic;
+.success{
+margin-top:20px;
+color:#b7ffb7;
+display:none;
 }
 
 @media(max-width:900px){
-
-.hero-grid,
-.story-grid,
-.collection{
-grid-template-columns:1fr;
+.hero-grid,.story-grid,.collection{grid-template-columns:1fr;}
+.features{grid-template-columns:1fr;}
+.gallery{grid-template-columns:1fr;}
+h1{font-size:4rem;}
 }
 
-.features{
-grid-template-columns:1fr;
-}
+</style>
+</head>
 
-.gallery{
-grid-template-columns:1fr;
-}
+<body>
 
-h1{
-font-size:4rem;
-}
+<header>
+<div class="container nav">
+<img src="images/logo.jpg" class="logo">
+<a class="instagram" href="https://instagram.com/studionarcissus" target="_blank">@studionarcissus</a>
+</div>
+</header>
 
-}
+<section class="hero">
+<div class="container hero-grid">
 
-</style></head><body><header>
-<div class="container nav"><img src="images/logo.jpg" alt="Narcissus Logo" class="logo"><a class="instagram" href="https://instagram.com/studionarcissus" target="_blank">
-@studionarcissus
-</a></div>
-</header><section class="hero">
-<div class="container hero-grid"><div class="hero-image">
-<img src="images/hero.jpg" alt="Narcissus Signature Box">
-</div><div class="hero-text">
-<h1>Self-Love,<br>Boxed.</h1><p>
-Curated self-care experiences designed to help you slow down,
-reconnect, and celebrate yourself.
-</p><div class="btns">
-<a href="#waitlist" class="btn btn-primary">Join the Waitlist</a><a href="https://instagram.com/studionarcissus" target="_blank" class="btn btn-secondary">
-Follow on Instagram
-</a>
-</div></div></div>
-</section><section class="story">
-<div class="container story-grid"><div>
-<h2>A Moment That Belongs To You</h2><p>
-Narcissus transforms everyday self-care into meaningful rituals.
-Each box is thoughtfully curated to inspire reflection,
-comfort, joy, and intentional moments of connection.
-</p></div><img src="images/lifestyle.jpg" alt="Lifestyle"></div>
-</section><section>
-<div class="container"><div class="features"><div class="feature">
-<h3>🌿</h3>
-<strong>Mindful Moments</strong>
-<p>Slow down and reconnect with yourself through intentional rituals.</p>
-</div><div class="feature">
-<h3>🎁</h3>
-<strong>Beautifully Curated</strong>
-<p>Premium products selected for quality, comfort and delight.</p>
-</div><div class="feature">
-<h3>🌈</h3>
-<strong>Inclusive & Celebratory</strong>
-<p>Created for everyone, with special editions celebrating Pride.</p>
-</div></div></div>
-</section><section class="collections">
-<div class="container"><div class="collection"><img src="images/hero.jpg" alt="Signature Collection"><div>
-<h2>Signature Collection</h2><p>
-Our timeless cream edition designed for elevated self-care and everyday luxury.
-</p></div></div><div class="collection"><img src="images/rainbow.jpg" alt="Rainbow Edition"><div>
-<h2>Rainbow Edition</h2><p>
-A celebration of self-expression, belonging, joy and authenticity.
-Created with love for the LGBTQ+ community and allies.
-</p></div></div></div>
-</section><section>
-<div class="container"><h2 style="text-align:center;margin-bottom:50px;">Details</h2><div class="gallery"><img src="images/gallery1.jpg" alt="">
-<img src="images/gallery2.jpg" alt="">
-<img src="images/hero.jpg" alt="">
-<img src="images/rainbow.jpg" alt=""></div></div>
-</section><section id="waitlist" class="waitlist"><div class="container"><h2>Be First To Know</h2><p>
-Join the waitlist and be among the first to hear when Narcissus launches.
-</p><div class="email-box">
-<input type="email" placeholder="Your email address">
-<button>Notify Me</button>
-</div></div></section><footer><h3>Narcissus</h3><div class="tagline">
-Self-Love, Boxed.
-</div><p style="margin-top:12px;">
-Made in Canada
-</p></footer></body>
+<div class="hero-image">
+<img src="images/hero.jpg">
+</div>
+
+<div>
+<h1>Self-Love,<br>Boxed.</h1>
+<p>Curated self-care experiences designed to help you slow down.</p>
+
+<a href="#waitlist" class="btn btn-primary">Join Waitlist</a>
+</div>
+
+</div>
+</section>
+
+<section class="story">
+<div class="container story-grid">
+<div>
+<h2>A Moment That Belongs To You</h2>
+<p>Meaningful self-care rituals for calm and joy.</p>
+</div>
+<img src="images/lifestyle.jpg">
+</div>
+</section>
+
+<section class="waitlist" id="waitlist">
+<div class="container">
+
+<h2>Be First To Know</h2>
+<p>Join the waitlist.</p>
+
+<form class="email-box"
+action="https://formspree.io/f/maqzlvvd"
+method="POST"
+onsubmit="showSuccess()">
+
+<input type="email" name="email" placeholder="Your email address" required>
+
+<button type="submit">Notify Me</button>
+
+</form>
+
+<div class="success" id="successMsg">
+✨ You’re in. Welcome to Narcissus.
+</div>
+
+</div>
+</section>
+
+<script>
+function showSuccess(){
+setTimeout(()=>{
+document.getElementById("successMsg").style.display="block";
+},300);
+}
+</script>
+
+</body>
 </html>
