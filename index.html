@@ -77,7 +77,13 @@ gap:70px;
 align-items:center;
 }
 
-.hero-image{border-radius:28px;overflow:hidden;}
+.hero-image{
+border-radius:28px;
+overflow:hidden;
+box-shadow:0 25px 60px rgba(0,0,0,.08);
+}
+
+.btns{display:flex;gap:15px;flex-wrap:wrap;margin-top:25px;}
 
 .btn{
 padding:14px 28px;
@@ -187,9 +193,12 @@ h1{font-size:4rem;}
 
 <div>
 <h1>Self-Love,<br>Boxed.</h1>
-<p>Curated self-care experiences designed to help you slow down.</p>
+<p>Curated self-care experiences designed to help you slow down, reconnect, and celebrate yourself.</p>
 
+<div class="btns">
 <a href="#waitlist" class="btn btn-primary">Join Waitlist</a>
+<a href="https://instagram.com/studionarcissus" target="_blank" class="btn btn-secondary">Follow Instagram</a>
+</div>
 </div>
 
 </div>
@@ -199,17 +208,79 @@ h1{font-size:4rem;}
 <div class="container story-grid">
 <div>
 <h2>A Moment That Belongs To You</h2>
-<p>Meaningful self-care rituals for calm and joy.</p>
+<p>Narcissus transforms everyday self-care into meaningful rituals.</p>
 </div>
 <img src="images/lifestyle.jpg">
 </div>
 </section>
 
-<section class="waitlist" id="waitlist">
+<section>
+<div class="container">
+<div class="features">
+
+<div class="feature">
+<h3>🌿</h3>
+<strong>Mindful Moments</strong>
+<p>Slow down and reconnect with yourself.</p>
+</div>
+
+<div class="feature">
+<h3>🎁</h3>
+<strong>Beautifully Curated</strong>
+<p>Premium products selected for quality.</p>
+</div>
+
+<div class="feature">
+<h3>🌈</h3>
+<strong>Inclusive</strong>
+<p>Created for everyone, including Pride editions.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="collections">
+<div class="container">
+
+<div class="collection">
+<img src="images/hero.jpg">
+<div>
+<h2>Signature Collection</h2>
+<p>Timeless cream edition for elevated self-care.</p>
+</div>
+</div>
+
+<div class="collection">
+<img src="images/rainbow.jpg">
+<div>
+<h2>Rainbow Edition</h2>
+<p>Celebration of identity, joy, and authenticity.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2 style="text-align:center;margin-bottom:50px;">Details</h2>
+
+<div class="gallery">
+<img src="images/gallery1.jpg">
+<img src="images/gallery2.jpg">
+<img src="images/hero.jpg">
+<img src="images/rainbow.jpg">
+</div>
+
+</div>
+</section>
+
+<section id="waitlist" class="waitlist">
 <div class="container">
 
 <h2>Be First To Know</h2>
-<p>Join the waitlist.</p>
+<p>Join the waitlist for launch updates.</p>
 
 <form class="email-box"
 action="https://formspree.io/f/maqzlvvd"
