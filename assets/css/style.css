@@ -1,0 +1,626 @@
+/* =========================================
+   NARCISSUS DESIGN SYSTEM
+   Version 1.0
+========================================= */
+
+/* ---------- CSS RESET ---------- */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    min-height:100vh;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button,
+input,
+textarea{
+    font:inherit;
+    border:none;
+    outline:none;
+}
+
+ul,
+ol{
+    list-style:none;
+}
+
+/* ---------- ROOT VARIABLES ---------- */
+
+:root{
+
+    /* Brand Colors */
+
+    --color-background:#F8F6F2;
+
+    --color-surface:#FFFFFF;
+
+    --color-primary:#B89A5B;
+
+    --color-primary-dark:#9D8148;
+
+    --color-text:#1F1F1F;
+
+    --color-text-light:#666666;
+
+    --color-border:#E7E3DC;
+
+    --color-shadow:rgba(0,0,0,.08);
+
+    /* Typography */
+
+    --font-heading:'Cormorant Garamond', serif;
+
+    --font-body:'Inter', sans-serif;
+
+    /* Width */
+
+    --container:1200px;
+
+    /* Radius */
+
+    --radius:18px;
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+}
+/* =========================================
+   GLOBAL STYLES
+========================================= */
+
+body{
+
+    background:var(--color-background);
+
+    color:var(--color-text);
+
+    font-family:var(--font-body);
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    -webkit-font-smoothing:antialiased;
+
+    text-rendering:optimizeLegibility;
+    
+    padding-top:88px;
+
+}
+
+/* ---------- Container ---------- */
+
+.container{
+
+    width:min(92%,1200px);
+
+    margin:0 auto;
+
+}
+
+/* ---------- Sections ---------- */
+
+section{
+
+    padding:100px 0;
+
+}
+
+/* ---------- Typography ---------- */
+
+h1,
+h2,
+h3,
+h4{
+
+    font-family:var(--font-heading);
+
+    font-weight:600;
+
+    line-height:1.1;
+
+    letter-spacing:.02em;
+
+}
+
+h1{
+
+    font-size:clamp(3rem,6vw,5.5rem);
+
+}
+
+h2{
+
+    font-size:clamp(2.2rem,4vw,3.5rem);
+
+}
+
+h3{
+
+    font-size:2rem;
+
+}
+
+p{
+
+    color:var(--color-text-light);
+
+    max-width:70ch;
+
+}
+
+/* ---------- Buttons ---------- */
+
+.button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    transition:var(--transition);
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+.button-primary{
+
+    background:var(--color-primary);
+
+    color:#fff;
+
+}
+
+.button-primary:hover{
+
+    background:var(--color-primary-dark);
+
+    transform:translateY(-2px);
+
+}
+
+.button-secondary{
+
+    border:1px solid var(--color-border);
+
+    background:#fff;
+
+}
+
+.button-secondary:hover{
+
+    background:#f2efe9;
+
+}
+/* =========================================
+   HEADER
+========================================= */
+
+.site-header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    background:rgba(248,246,242,.82);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(0,0,0,.05);
+
+}
+
+.header-inner{
+
+    height:88px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+.logo img{
+
+    height:42px;
+
+}
+
+.main-nav{
+
+    display:flex;
+
+    gap:42px;
+
+}
+
+.main-nav a{
+
+    position:relative;
+
+    font-size:.95rem;
+
+    transition:.3s;
+
+}
+
+.main-nav a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#C8A25A;
+
+    transition:.3s;
+
+}
+
+.main-nav a:hover::after{
+
+    width:100%;
+
+}
+
+.header-cta{
+
+    padding:13px 26px;
+
+    border-radius:999px;
+
+    background:#C8A25A;
+
+    color:#fff;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.header-cta:hover{
+
+    transform:translateY(-2px);
+
+}
+/* =========================================
+   HERO
+========================================= */
+
+.hero{
+
+    min-height:calc(100vh - 84px);
+
+    display:flex;
+
+    align-items:center;
+
+    padding:80px 0;
+
+}
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:1.05fr .95fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.hero-content{
+
+    max-width:620px;
+
+}
+
+.hero-label{
+
+    display:inline-block;
+
+    text-transform:uppercase;
+
+    letter-spacing:.28em;
+
+    font-size:.82rem;
+
+    color:var(--color-primary);
+
+    margin-bottom:24px;
+
+}
+
+.hero h1{
+
+    font-size:clamp(3.6rem,7vw,6.4rem);
+
+    line-height:.93;
+
+    margin-bottom:32px;
+
+}
+
+.hero-text{
+
+    max-width:540px;
+
+    font-size:1.2rem;
+
+    line-height:1.9;
+
+    color:#666;
+
+    margin-bottom:44px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    max-width:560px;
+
+    border-radius:28px;
+
+    transition:.45s ease;
+
+    box-shadow:0 40px 80px rgba(0,0,0,.12);
+
+}
+
+.hero-image img:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 55px 110px rgba(0,0,0,.18);
+
+}
+/* =========================================
+   BUTTONS
+========================================= */
+
+.button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:all .35s ease;
+
+    cursor:pointer;
+
+}
+
+.button-primary{
+
+    background:#C8A25A;
+
+    color:#ffffff;
+
+    border:1px solid #C8A25A;
+
+}
+
+.button-primary:hover{
+
+    background:#b38e4d;
+
+    transform:translateY(-2px);
+
+}
+
+.button-secondary{
+
+    background:#ffffff;
+
+    color:#1f1f1f;
+
+    border:1px solid #ddd;
+
+}
+
+.button-secondary:hover{
+
+    background:#f6f6f6;
+
+    transform:translateY(-2px);
+
+}
+/* =========================================
+   SECTIONS
+========================================= */
+
+.section{
+
+    padding:120px 0;
+
+}
+
+.section-intro{
+
+    text-align:center;
+
+    max-width:720px;
+
+    margin:0 auto 70px;
+
+}
+
+.section-label{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    text-transform:uppercase;
+
+    letter-spacing:.25em;
+
+    color:var(--color-primary);
+
+    font-size:.82rem;
+
+}
+
+.section-intro h2{
+
+    font-size:clamp(2.5rem,5vw,4rem);
+
+    line-height:1.1;
+
+}
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.product-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:42px;
+
+}
+
+.product-card{
+
+    background:#fff;
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    transition:.4s ease;
+
+    box-shadow:0 15px 50px rgba(0,0,0,.06);
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 35px 80px rgba(0,0,0,.12);
+
+}
+
+.product-card img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+.product-card h3{
+
+    font-size:2rem;
+
+    margin:28px 32px 16px;
+
+}
+
+.product-card p{
+
+    margin:0 32px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.price{
+
+    display:block;
+
+    margin:28px 32px;
+
+    font-size:1.15rem;
+
+    font-weight:600;
+
+}
+
+.product-card .button{
+
+    margin:0 32px 36px;
+
+}
