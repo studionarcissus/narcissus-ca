@@ -1,0 +1,14 @@
+.product-card,
+.journal-card,
+.info-card,
+.corporate-card,
+.cta-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.product-card:hover,
+.journal-card:hover,
+.info-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 38px rgba(0, 0, 0, 0.08);
+}
