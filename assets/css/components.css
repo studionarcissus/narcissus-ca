@@ -12,3 +12,25 @@
     transform: translateY(-4px);
     box-shadow: 0 24px 38px rgba(0, 0, 0, 0.08);
 }
+.product-badge {
+    display: inline-block;
+    margin: 0.5rem 0 1rem;
+    padding: 5px 12px;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    background: #f5efe6;
+    color: #7b6748;
+    font-weight: 600;
+}
+
+.product-badge.rainbow {
+    background: linear-gradient(90deg,
+        #ff6b6b,
+        #ffd166,
+        #6bcf7f,
+        #4dabf7,
+        #9b5de5);
+    color: white;
+}
