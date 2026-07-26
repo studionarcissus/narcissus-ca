@@ -1,210 +1,181 @@
-/* ==========================================
-   NARCISSUS COLLECTION
-========================================== */
+// ===============================
+// Narcissus Collection
+// ===============================
 
-const galleryItems = document.querySelectorAll(".gallery-item");
-const filters = document.querySelectorAll(".filter");
+document.addEventListener("DOMContentLoaded", () => {
 
-const lightbox = document.getElementById("lightbox");
-const lightboxImage = document.getElementById("lightbox-image");
+    // -----------------------
+    // FILTERS
+    // -----------------------
 
-const closeBtn = document.querySelector(".close-lightbox");
-const nextBtn = document.querySelector(".next");
-const prevBtn = document.querySelector(".prev");
+    const filters = document.querySelectorAll(".filter");
+    const items = document.querySelectorAll(".gallery-item");
 
-const currentImage = document.getElementById("current-image");
-const totalImages = document.getElementById("total-images");
+    filters.forEach(button => {
 
-let currentIndex = 0;
+        button.addEventListener("click", () => {
 
-const images = [...galleryItems].map(item=>{
+            filters.forEach(btn =>
+                btn.classList.remove("active")
+            );
 
-    return item.querySelector("img");
+            button.classList.add("active");
 
-});
+            const filter = button.dataset.filter;
 
-totalImages.textContent = images.length;
-const observer = new IntersectionObserver(entries=>{
+            items.forEach(item => {
 
-entries.forEach(entry=>{
+                if (
+                    filter === "all" ||
+                    item.dataset.category === filter
+                ) {
 
-if(entry.isIntersecting){
+                    item.classList.remove("hide");
 
-entry.target.classList.add("visible");
+                } else {
 
-}
+                    item.classList.add("hide");
 
-});
+                }
 
-},{
-threshold:.15
-});
+            });
 
-galleryItems.forEach(item=>observer.observe(item));
-filters.forEach(button=>{
+        });
 
-button.addEventListener("click",()=>{
+    });
 
-filters.forEach(btn=>btn.classList.remove("active"));
+    // -----------------------
+    // FADE IN
+    // -----------------------
 
-button.classList.add("active");
+    const observer = new IntersectionObserver(entries => {
 
-const filter = button.dataset.filter;
+        entries.forEach(entry => {
 
-galleryItems.forEach(item=>{
+            if(entry.isIntersecting){
 
-if(filter==="all"){
+                entry.target.classList.add("show");
 
-item.style.display="block";
+            }
 
-requestAnimationFrame(()=>{
+        });
 
-item.style.opacity=1;
+    },{
+        threshold:.15
+    });
 
-});
+    items.forEach(item=>observer.observe(item));
 
-return;
+    // -----------------------
+    // LIGHTBOX
+    // -----------------------
 
-}
+    const lightbox =
+        document.getElementById("lightbox");
 
-if(item.classList.contains(filter)){
+    const lightboxImage =
+        document.getElementById("lightbox-image");
 
-item.style.display="block";
+    const closeButton =
+        document.querySelector(".lightbox-close");
 
-requestAnimationFrame(()=>{
+    const nextButton =
+        document.querySelector(".lightbox-next");
 
-item.style.opacity=1;
+    const prevButton =
+        document.querySelector(".lightbox-prev");
 
-});
+    const images =
+        [...document.querySelectorAll(".gallery-item img")];
 
-}else{
+    let current = 0;
 
-item.style.opacity=0;
+    function open(index){
 
-setTimeout(()=>{
+        current=index;
 
-item.style.display="none";
+        lightboxImage.src=images[index].src;
 
-},250);
+        lightboxImage.alt=images[index].alt;
 
-}
+        lightbox.classList.add("open");
 
-});
+        document.body.style.overflow="hidden";
 
-});
+    }
 
-});
-galleryItems.forEach((item,index)=>{
+    function close(){
 
-item.addEventListener("click",()=>{
+        lightbox.classList.remove("open");
 
-currentIndex=index;
+        document.body.style.overflow="";
 
-openImage();
+    }
 
-});
+    function next(){
 
-});
+        current++;
 
-function openImage(){
+        if(current>=images.length){
 
-lightbox.classList.add("open");
+            current=0;
 
-lightboxImage.src=images[currentIndex].src;
+        }
 
-currentImage.textContent=currentIndex+1;
+        open(current);
 
-document.body.style.overflow="hidden";
+    }
 
-}
-function closeLightbox(){
+    function prev(){
 
-lightbox.classList.remove("open");
+        current--;
 
-document.body.style.overflow="";
+        if(current<0){
 
-}
+            current=images.length-1;
 
-closeBtn.addEventListener("click",closeLightbox);
+        }
 
-lightbox.addEventListener("click",e=>{
+        open(current);
 
-if(e.target===lightbox){
+    }
 
-closeLightbox();
+    images.forEach((img,index)=>{
 
-}
+        img.addEventListener("click",()=>{
 
-});
-nextBtn.addEventListener("click",()=>{
+            open(index);
 
-currentIndex++;
+        });
 
-if(currentIndex>=images.length){
+    });
 
-currentIndex=0;
+    closeButton.addEventListener("click",close);
 
-}
+    nextButton.addEventListener("click",next);
 
-openImage();
+    prevButton.addEventListener("click",prev);
 
-});
-prevBtn.addEventListener("click",()=>{
+    lightbox.addEventListener("click",(e)=>{
 
-currentIndex--;
+        if(e.target===lightbox){
 
-if(currentIndex<0){
+            close();
 
-currentIndex=images.length-1;
+        }
 
-}
+    });
 
-openImage();
+    document.addEventListener("keydown",(e)=>{
 
-});
-document.addEventListener("keydown",e=>{
+        if(!lightbox.classList.contains("open")) return;
 
-if(!lightbox.classList.contains("open")) return;
+        if(e.key==="Escape") close();
 
-if(e.key==="Escape"){
+        if(e.key==="ArrowRight") next();
 
-closeLightbox();
+        if(e.key==="ArrowLeft") prev();
 
-}
-
-if(e.key==="ArrowRight"){
-
-nextBtn.click();
-
-}
-
-if(e.key==="ArrowLeft"){
-
-prevBtn.click();
-
-}
-
-});
-document.addEventListener("contextmenu",e=>{
-
-e.preventDefault();
-
-});
-
-document.querySelectorAll("img").forEach(img=>{
-
-img.setAttribute("draggable","false");
-
-});
-
-document.addEventListener("dragstart",e=>{
-
-e.preventDefault();
-
-});
-
-document.addEventListener("selectstart",e=>{
-
-e.preventDefault();
+    });
 
 });

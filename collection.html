@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Narcissus | Collection</title>
+<title>Collection | Narcissus</title>
 
 <meta name="description"
-content="A visual collection of moments, rituals, details and quiet luxury from Narcissus.">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/components.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="stylesheet" href="assets/css/collection.css">
+content="Explore the Narcissus Collection. Thoughtfully curated moments designed to help you pause, breathe, and reconnect with yourself.">
 
 <meta property="og:title" content="Narcissus Collection">
-<meta property="og:description" content="Luxury self-care imagery and rituals.">
-<meta property="og:image" content="https://narcissus.ca/assets/images/me-time-box-angle.webp">
-<meta property="og:type" content="website">
+<meta property="og:description"
+content="Luxury self-care experiences designed for meaningful moments.">
 
-<link rel="icon" href="assets/images/logo.svg">
+<meta property="og:image"
+content="https://narcissus.ca/assets/images/me-time-box-angle.webp">
+
+<link rel="icon"
+href="assets/images/favicon.png">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="assets/css/style.css">
+
+<link rel="stylesheet"
+href="assets/css/collection.css">
 
 </head>
 
@@ -34,83 +42,74 @@ content="A visual collection of moments, rituals, details and quiet luxury from 
 
 <header class="site-header">
 
-<div class="container header-inner">
+<div class="container">
 
-<a href="index.html" class="logo">
-
-<img
-src="assets/images/logo.svg"
-alt="Narcissus">
-
+<a href="index.html"
+class="logo">
+Narcissus
 </a>
 
-<nav class="main-nav">
+<nav>
 
-<a href="index.html#shop">Shop</a>
+<ul class="nav-links">
 
-<a href="collection.html">Collection</a>
+<li><a href="index.html">Home</a></li>
 
-<a href="index.html#about">About</a>
+<li><a href="collection.html"
+class="active">
+Collection
+</a></li>
 
-<a href="index.html#journal">Journal</a>
+<li><a href="index.html#about">
+About
+</a></li>
 
-<a href="index.html#corporate">Corporate</a>
+<li><a href="index.html#contact">
+Contact
+</a></li>
 
-<a href="index.html#contact">Contact</a>
+</ul>
 
 </nav>
-
-<button class="menu-toggle">
-
-<span></span>
-<span></span>
-<span></span>
-
-</button>
-
-<a href="index.html#shop" class="header-cta">
-
-Shop Now
-
-</a>
 
 </div>
 
 </header>
 
-<main>
-
 <section class="collection-hero">
 
-<img
-class="hero-image"
-src="assets/images/me-time-box-angle.webp"
-alt="Narcissus Collection">
+<div class="hero-image">
 
-<div class="hero-overlay"></div>
+<img
+src="assets/images/me-time-box-angle.webp"
+alt="Narcissus Me Time Box">
+
+</div>
 
 <div class="hero-content">
 
-<p class="eyebrow">
-
-NARCISSUS COLLECTION
-
-</p>
+<span class="eyebrow">
+THE COLLECTION
+</span>
 
 <h1>
-
-A Gallery of Quiet Luxury
-
+Moments Worth Keeping
 </h1>
 
 <p>
 
-Every ribbon, every candle, every pause tells a story.
-Explore the visual world behind Narcissus.
+Every Narcissus box is designed to create
+space for calm, reflection and meaningful
+rituals.
+
+Luxury isn't about having more.
+
+It's about returning to yourself.
 
 </p>
 
-<a href="#gallery" class="scroll-button">
+<a href="#gallery"
+class="hero-button">
 
 Explore Collection
 
@@ -120,48 +119,41 @@ Explore Collection
 
 </section>
 
-<section class="filter-section">
+<section class="filters">
 
 <div class="container">
 
-<div class="filters">
-
-<button class="filter active"
+<button
+class="filter active"
 data-filter="all">
 
 All
 
 </button>
 
-<button class="filter"
-data-filter="products">
+<button
+class="filter"
+data-filter="box">
 
-Products
-
-</button>
-
-<button class="filter"
-data-filter="details">
-
-Details
+Boxes
 
 </button>
 
-<button class="filter"
+<button
+class="filter"
 data-filter="lifestyle">
 
 Lifestyle
 
 </button>
 
-<button class="filter"
-data-filter="packaging">
+<button
+class="filter"
+data-filter="details">
 
-Packaging
+Details
 
 </button>
-
-</div>
 
 </div>
 
@@ -170,129 +162,205 @@ Packaging
 <section
 id="gallery"
 class="gallery">
-<figure class="gallery-item large" data-category="products">
-    <img src="assets/images/me-time-box-angle.webp" alt="Me Time Box">
-    <span class="watermark">NARCISSUS</span>
+
+<div class="gallery-grid">
+    <figure class="gallery-item" data-category="box">
+
+<img
+src="assets/images/me-time-box-angle.webp"
+alt="Me Time Box">
+
+<figcaption>
+Me Time Box
+</figcaption>
+
 </figure>
 
-<figure class="gallery-item" data-category="products">
-    <img src="assets/images/me-time-box-open.webp" alt="Me Time Box Open">
-    <span class="watermark">NARCISSUS</span>
+<figure class="gallery-item" data-category="box">
+
+<img
+src="assets/images/me-time-box-open.webp"
+alt="Me Time Box Open">
+
+<figcaption>
+Inside the Experience
+</figcaption>
+
 </figure>
 
-<figure class="gallery-item large" data-category="products">
-    <img src="assets/images/rainbow-me-time-box-open.webp" alt="Rainbow Me Time Box">
-    <span class="watermark">NARCISSUS</span>
+<figure class="gallery-item" data-category="box">
+
+<img
+src="assets/images/rainbow-me-time-box-open.webp"
+alt="Rainbow Me Time Box">
+
+<figcaption>
+Rainbow Me Time
+</figcaption>
+
 </figure>
 
 <figure class="gallery-item" data-category="lifestyle">
-    <img src="assets/images/me-time-lifestyle.webp" alt="Lifestyle">
-    <span class="watermark">NARCISSUS</span>
+
+<img
+src="assets/images/me-time-lifestyle.webp"
+alt="Lifestyle">
+
+<figcaption>
+A Quiet Moment
+</figcaption>
+
 </figure>
 
 <figure class="gallery-item" data-category="details">
-    <img src="assets/images/tea-ritual.webp" alt="Tea Ritual">
-    <span class="watermark">NARCISSUS</span>
-</figure>
 
-<figure class="gallery-item large" data-category="details">
-    <img src="assets/images/candle-lit.webp" alt="Candle">
-    <span class="watermark">NARCISSUS</span>
+<img
+src="assets/images/tea-ritual.webp"
+alt="Tea Ritual">
+
+<figcaption>
+Tea Ritual
+</figcaption>
+
 </figure>
 
 <figure class="gallery-item" data-category="details">
-    <img src="assets/images/permission-slips.webp" alt="Permission Slips">
-    <span class="watermark">NARCISSUS</span>
+
+<img
+src="assets/images/candle-lit.webp"
+alt="Candle">
+
+<figcaption>
+Soft Light
+</figcaption>
+
 </figure>
 
-<figure class="gallery-item" data-category="products">
-    <img src="assets/images/me-time-box-angle.webp" alt="Gift Box">
-    <span class="watermark">NARCISSUS</span>
+<figure class="gallery-item" data-category="details">
+
+<img
+src="assets/images/permission-slips.webp"
+alt="Permission Slips">
+
+<figcaption>
+Permission Slips
+</figcaption>
+
 </figure>
 
 <figure class="gallery-item" data-category="lifestyle">
-    <img src="assets/images/me-time-lifestyle.webp" alt="Luxury Self Care">
-    <span class="watermark">NARCISSUS</span>
+
+<img
+src="assets/images/me-time-box-angle.webp"
+alt="Luxury Gift Box">
+
+<figcaption>
+Designed for Presence
+</figcaption>
+
 </figure>
 
-</section>
-<section class="collection-quote">
+<figure class="gallery-item" data-category="lifestyle">
 
-    <div class="container">
+<img
+src="assets/images/me-time-box-open.webp"
+alt="Luxury Self Care">
 
-        <h2>
-            Luxury is not having more.
-            <br>
-            It's feeling more.
-        </h2>
+<figcaption>
+Self-Love, Boxed.
+</figcaption>
 
-        <p>
-            Every Narcissus box is intentionally designed to create a moment
-            of stillness, beauty and presence. Small rituals become meaningful
-            when we allow ourselves permission to pause.
-        </p>
-
-        <a href="index.html#shop" class="shop-button">
-            Shop Collection
-        </a>
-
-    </div>
-
-</section>
-
-<div class="lightbox">
-
-    <button class="close-lightbox">&times;</button>
-
-    <button class="prev">&#10094;</button>
-
-    <img src="" alt="Expanded image">
-
-    <button class="next">&#10095;</button>
-
-    <div class="image-counter"></div>
+</figure>
 
 </div>
-</main>
 
+</section>
+
+<section class="collection-quote">
+
+<div class="container">
+
+<blockquote>
+
+“Luxury is giving yourself permission to pause.”
+
+</blockquote>
+
+</div>
+
+</section>
+
+<div id="lightbox" class="lightbox">
+
+<button class="lightbox-close">
+&times;
+</button>
+
+<button class="lightbox-prev">
+&#10094;
+</button>
+
+<img
+id="lightbox-image"
+src=""
+alt="">
+
+<button class="lightbox-next">
+&#10095;
+</button>
+
+</div>
 <footer class="site-footer">
 
-    <div class="container footer-inner">
+<div class="container">
 
-        <p>
-            © <span id="year"></span> Narcissus.
-            <br>
-            Permission • Pause • Presence
-        </p>
+<div class="footer-brand">
 
-        <div class="footer-brand">
+<h3>Narcissus</h3>
 
-            <h3>Narcissus</h3>
+<p>
+Luxury self-care experiences created with intention.
+</p>
 
-            <p>
-                Luxury self-care gift boxes designed to help you slow down,
-                reconnect, and return to yourself.
-            </p>
+</div>
 
-        </div>
+<div class="footer-links">
 
-        <div class="footer-links">
+<a href="index.html">
+Home
+</a>
 
-            <a href="index.html#shop">Shop</a>
-            <a href="collection.html">Collection</a>
-            <a href="shipping.html">Shipping</a>
-            <a href="faq.html">FAQ</a>
-            <a href="privacy.html">Privacy</a>
-            <a href="terms.html">Terms</a>
+<a href="collection.html">
+Collection
+</a>
 
-        </div>
+<a href="index.html#about">
+About
+</a>
 
-    </div>
+<a href="index.html#contact">
+Contact
+</a>
+
+</div>
+
+<div class="footer-copy">
+
+<p>
+© 2026 Narcissus.
+All rights reserved.
+</p>
+
+</div>
+
+</div>
 
 </footer>
 
-<script src="assets/js/app.js"></script>
-<!-- <script src="assets/js/collection.js"></script> -->
+<script src="assets/js/main.js"></script>
+
+<script src="assets/js/collection.js"></script>
 
 </body>
+
 </html>
