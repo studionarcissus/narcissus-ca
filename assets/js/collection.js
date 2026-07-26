@@ -1,3 +1,4 @@
+console.log("NEW COLLECTION JS LOADED");
 // ===============================
 // Narcissus Collection
 // ===============================
