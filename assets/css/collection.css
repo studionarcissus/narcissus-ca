@@ -244,13 +244,11 @@ font-weight:600;
 }
 .gallery-item{
 
-opacity:0;
+opacity:1;
 
-transform:translateY(70px);
+transform:none;
 
-transition:
-
-1s cubic-bezier(.2,.8,.2,1);
+transition:1s cubic-bezier(.2,.8,.2,1);
 
 }
 
