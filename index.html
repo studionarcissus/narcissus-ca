@@ -25,7 +25,7 @@
 <link rel="icon" href="assets/images/logo.svg">
 <link rel="apple-touch-icon" href="assets/images/logo.svg">
 </head>
-
+<script src="assets/js/language.js"></script>
 <body>
     <header class="site-header">
         <div class="container header-inner">
@@ -38,10 +38,14 @@
 </a>
 
             <nav class="main-nav" aria-label="Primary navigation">
-                <a href="collection.html">Shop</a>
-                <a href="index.html#about">About</a>
-                <a href="index.html#journal">Journal</a>
-                <a href="index.html#contact">Contact</a>
+                <a href="collection.html" data-i18n="nav_shop">Shop</a>
+                <a href="index.html#about" data-i18n="nav_about">About</a>
+                <a href="index.html#journal" data-i18n="nav_journal">Journal</a>
+                <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+                <div class="language-switcher">
+              <button onclick="setLanguage('en')">EN</button>
+              <button onclick="setLanguage('fr')">FR</button>
+                </div>
             </nav>
             <button class="menu-toggle" aria-label="Open Menu">
                 <span></span>
@@ -49,8 +53,10 @@
                 <span></span>
             </button>
             
-            <a href="collection.html" class="header-cta">
-    Shop Now
+            <a href="collection.html"
+            class="header-cta"
+            data-i18n="cta_shop">
+            Shop Now
             </a>
         </div>
     </header>
@@ -59,9 +65,13 @@
         <section class="hero reveal">
             <div class="container hero-grid">
                 <div class="hero-content">
-                    <p class="hero-label">Permission • Pause • Presence</p>
-                    <h1>The luxury of slowing down.</h1>
-                    <p class="hero-text">
+                    <p class="hero-label" data-i18n="hero_label">
+                        Permission • Pause • Presence
+                    </p>
+                  <h1 data-i18n="hero_title">
+                    The luxury of slowing down.
+                  </h1>
+                    <p class="hero-text" data-i18n="hero_subtitle">
 Luxury self-care gift boxes designed to help you pause, reconnect, and return to yourself.
 </p>
 <p class="hero-note">
