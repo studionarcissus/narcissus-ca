@@ -1,15 +1,29 @@
 const translations = {
   en: {
+    card1_title: "Curated rituals",
+card1_text: "Thoughtfully chosen details that turn ordinary moments into restorative ones.",
+
+card2_title: "Elevated gifting",
+card2_text: "Elegant packaging and premium textures that feel as beautiful as they are useful.",
+
+card3_title: "Made to pause",
+card3_text: "Designed to slow the pace of the day and invite a deeper sense of calm.",
+    highlight1: "Hand-packed with care",
+    highlight2: "Premium, tactile details",
+    highlight3: "Designed for everyday rituals",
     nav_shop: "Shop",
     nav_about: "About",
     nav_journal: "Journal",
     nav_contact: "Contact",
     cta_shop: "Shop Now",
 
-    hero_title: "The luxury of slowing down.",
-    hero_subtitle:
-      "Luxury self-care gift boxes designed to help you pause, reconnect, and return to yourself."
-    hero_label: "Permission • Pause • Presence",
+  hero_title: "The luxury of slowing down.",
+
+  hero_subtitle:
+    "Luxury self-care gift boxes designed to help you pause, reconnect, and return to yourself.",
+
+  hero_label:
+    "Permission • Pause • Presence",
 
 hero_note1: "✓ Hand-packed in British Columbia",
 hero_note2: "✓ Free delivery across Metro Vancouver",
@@ -21,9 +35,27 @@ hero_subtext:
 hero_shop: "Shop Collection",
 
 hero_corporate: "Corporate Gifting",
+intro_label: "A softer way to receive",
+
+intro_title:
+"Luxury that feels intimate, calming and beautifully considered.",
+
+intro_text:
+"Every box pairs elevated essentials with gentle rituals, bringing together texture, comfort and meaning in one memorable experience.",
   },
 
   fr: {
+    card1_title: "Rituels soigneusement sélectionnés",
+card1_text: "Des détails choisis avec soin qui transforment les moments ordinaires en instants ressourçants.",
+
+card2_title: "Des cadeaux raffinés",
+card2_text: "Un emballage élégant et des textures haut de gamme, aussi belles qu'utiles.",
+
+card3_title: "Conçu pour ralentir",
+card3_text: "Créé pour ralentir le rythme de la journée et inviter à un profond sentiment de calme.",
+    highlight1: "Assemblé avec soin",
+highlight2: "Des détails raffinés",
+highlight3: "Conçu pour les rituels du quotidien",
     nav_shop: "Boutique",
     nav_about: "À propos",
     nav_journal: "Journal",
@@ -31,9 +63,12 @@ hero_corporate: "Corporate Gifting",
     cta_shop: "Acheter",
 
     hero_title: "Le luxe de ralentir.",
+
     hero_subtitle:
-      "Des coffrets de soins de luxe conçus pour vous aider à faire une pause, vous reconnecter et revenir à vous-même."
-      hero_label: "Permission • Pause • Présence",
+    "Des coffrets de soins de luxe conçus pour vous aider à faire une pause, vous reconnecter et revenir à vous-même.",
+
+    hero_label:
+    "Permission • Pause • Présence",
 
 hero_note1: "✓ Assemblé à la main en Colombie-Britannique",
 hero_note2: "✓ Livraison gratuite dans le Grand Vancouver",
@@ -45,6 +80,13 @@ hero_subtext:
 hero_shop: "Découvrir la collection",
 
 hero_corporate: "Cadeaux d'entreprise",
+intro_label: "Une manière plus douce de recevoir",
+
+intro_title:
+"Le luxe qui apaise, réconforte et touche profondément.",
+
+intro_text:
+"Chaque coffret réunit des essentiels soigneusement sélectionnés et des rituels délicats pour offrir une expérience riche en douceur, en confort et en émotion.",
   }
 };
 
