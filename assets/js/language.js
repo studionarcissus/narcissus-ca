@@ -148,7 +148,7 @@ card3_text: "Créé pour ralentir le rythme de la journée et inviter à un prof
     highlight1: "Assemblé avec soin",
 highlight2: "Des détails raffinés",
 highlight3: "Conçu pour les rituels du quotidien",
-    nav_shop: "Boutique",
+    nav_shop: "XXXXXXXX",
     nav_about: "À propos",
     nav_journal: "Journal",
     nav_contact: "Contact",
