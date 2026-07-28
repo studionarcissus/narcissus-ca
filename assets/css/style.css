@@ -880,3 +880,44 @@ grid-template-columns:repeat(2,1fr);
 }
 
 }
+.language-switcher{
+display:flex;
+align-items:center;
+gap:6px;
+}
+
+.language-switcher button{
+
+padding:7px 14px;
+border:1px solid #d8c9a5;
+background:white;
+color:#7a6b47;
+
+border-radius:999px;
+
+font-size:.9rem;
+font-weight:500;
+
+cursor:pointer;
+
+transition:.25s;
+}
+
+.language-switcher button:hover{
+
+background:#f8f4ea;
+
+}
+
+.language-switcher button.active{
+
+background:#b89b5e;
+color:white;
+
+font-weight:700;
+
+border-color:#b89b5e;
+
+box-shadow:0 4px 12px rgba(184,155,94,.25);
+
+}

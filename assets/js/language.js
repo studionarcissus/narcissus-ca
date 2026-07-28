@@ -42,6 +42,30 @@ intro_title:
 
 intro_text:
 "Every box pairs elevated essentials with gentle rituals, bringing together texture, comfort and meaning in one memorable experience.",
+trust1: "Hand-packed in British Columbia",
+trust2: "Secure Checkout with Stripe",
+trust3: "Metro Vancouver & Canada-wide Delivery",
+trust4: "Ready to Gift",
+featured_label: "Featured collection",
+featured_title: "Thoughtfully curated self-care experiences.",
+
+me_badge: "✨ Signature Collection",
+me_description: "A quiet invitation to slow down, breathe, and return to yourself.",
+price_from49: "From CA$49.99",
+
+rainbow_badge: "🌈 Pride Collection",
+rainbow_description: "A vibrant celebration of pride, comfort, kindness and self-love.",
+price_from59: "From CA$59.99",
+shipping_note: "🚚 Free delivery across Metro Vancouver.<br>Canada-wide prices already include our flat-rate shipping, so there are no additional shipping charges at checkout.",
+
+buy_metro49: "Buy — Metro Vancouver • CA$49.99",
+buy_canada61: "Buy — Canada-wide • CA$61.99",
+
+buy_metro59: "Buy — Metro Vancouver • CA$59.99",
+buy_canada71: "Buy — Canada-wide • CA$71.99",
+
+product_meta: "✔ Ready to gift<br>✔ Hand-packed in Canada",
+
   },
 
   fr: {
@@ -87,17 +111,49 @@ intro_title:
 
 intro_text:
 "Chaque coffret réunit des essentiels soigneusement sélectionnés et des rituels délicats pour offrir une expérience riche en douceur, en confort et en émotion.",
+trust1: "Assemblé à la main en Colombie-Britannique",
+trust2: "Paiement sécurisé avec Stripe",
+trust3: "Livraison dans le Grand Vancouver et partout au Canada",
+trust4: "Prêt à offrir",
+featured_label: "Collection vedette",
+featured_title: "Des expériences de bien-être soigneusement conçues.",
+
+me_badge: "✨ Collection Signature",
+me_description: "Une douce invitation à ralentir, respirer et revenir à vous-même.",
+price_from49: "À partir de 49,99 $ CA",
+
+rainbow_badge: "🌈 Collection Fierté",
+rainbow_description: "Une célébration vibrante de la fierté, de la bienveillance et de l'amour de soi.",
+price_from59: "À partir de 59,99 $ CA",
+shipping_note: "🚚 Livraison gratuite dans le Grand Vancouver.<br>Les prix pour le reste du Canada incluent déjà les frais de livraison, sans frais supplémentaires au paiement.",
+
+buy_metro49: "Acheter — Grand Vancouver • 49,99 $ CA",
+buy_canada61: "Acheter — Partout au Canada • 61,99 $ CA",
+
+buy_metro59: "Acheter — Grand Vancouver • 59,99 $ CA",
+buy_canada71: "Acheter — Partout au Canada • 71,99 $ CA",
+
+product_meta: "✔ Prêt à offrir<br>✔ Assemblé à la main au Canada",
   }
 };
 
 function setLanguage(lang) {
   localStorage.setItem("language", lang);
+  document
+.querySelectorAll(".language-switcher button")
+.forEach(btn=>btn.classList.remove("active"));
+
+document
+.querySelector(
+`.language-switcher button[onclick="setLanguage('${lang}')"]`
+)
+?.classList.add("active");
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
 
     if (translations[lang] && translations[lang][key]) {
-      element.textContent = translations[lang][key];
+      element.innerHTML = translations[lang][key];
     }
   });
 }
