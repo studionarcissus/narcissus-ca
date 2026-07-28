@@ -108,6 +108,36 @@ faq_a5_page: "No. Pricing and invoices are never included inside gift packages."
 
 faq_q6_page: "How can I contact you?",
 faq_a6_page: "Email us anytime at",
+collection_label: "Our Collection",
+collection_title: "Moments Worth Keeping",
+collection_intro: "Thoughtfully curated gift boxes designed to create moments of calm, connection, and care.",
+
+filter_all: "All",
+filter_boxes: "Boxes",
+filter_lifestyle: "Lifestyle",
+filter_details: "Details",
+
+inside_label: "What's Inside",
+inside_title: "Thoughtfully Curated Details",
+inside_text: "Every Narcissus box is carefully assembled with premium treats, comforting rituals, and elegant finishing touches that transform an ordinary day into something memorable.",
+
+quote: "Luxury is not about having more. It's about feeling more."
+collection_label: "THE COLLECTION",
+collection_title: "Moments Worth Keeping",
+
+collection_intro: "Every Narcissus box is designed to create space for calm, reflection and meaningful rituals.<br><br>Luxury isn't about having more.<br><br>It's about returning to yourself.",
+
+collection_button: "Explore Collection",
+
+filter_all: "All",
+filter_boxes: "Boxes",
+filter_lifestyle: "Lifestyle",
+filter_details: "Details",
+
+inside_label: "WHAT'S INSIDE",
+inside_title: "Thoughtfully Curated Details",
+
+collection_quote: "Luxury is giving yourself permission to pause.",
 
   },
 
@@ -220,6 +250,36 @@ faq_a5_page: "Non. Les prix et les factures ne sont jamais inclus dans les coffr
 
 faq_q6_page: "Comment puis-je vous contacter ?",
 faq_a6_page: "Écrivez-nous à",
+collection_label: "Notre collection",
+collection_title: "Des moments à préserver",
+collection_intro: "Des coffrets soigneusement conçus pour créer des moments de calme, de connexion et de douceur.",
+
+filter_all: "Tout",
+filter_boxes: "Coffrets",
+filter_lifestyle: "Style de vie",
+filter_details: "Détails",
+
+inside_label: "À l'intérieur",
+inside_title: "Des détails soigneusement sélectionnés",
+inside_text: "Chaque coffret Narcissus est assemblé avec soin, avec des douceurs, des rituels apaisants et des finitions élégantes pour transformer une journée ordinaire en un moment précieux.",
+
+quote: "Le véritable luxe, c'est ressentir davantage, pas posséder davantage."
+collection_label: "LA COLLECTION",
+collection_title: "Des moments à préserver",
+
+collection_intro: "Chaque coffret Narcissus est conçu pour créer un espace de calme, de réflexion et de rituels significatifs.<br><br>Le luxe ne consiste pas à posséder davantage.<br><br>Il consiste à revenir à soi.",
+
+collection_button: "Découvrir la collection",
+
+filter_all: "Tout",
+filter_boxes: "Coffrets",
+filter_lifestyle: "Style de vie",
+filter_details: "Détails",
+
+inside_label: "À L'INTÉRIEUR",
+inside_title: "Des détails soigneusement sélectionnés",
+
+collection_quote: "Le luxe, c'est s'accorder la permission de faire une pause.",
   }
 };
 
