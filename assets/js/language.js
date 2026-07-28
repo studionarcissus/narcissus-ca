@@ -134,6 +134,20 @@ about_stat2_title: "Hand-packed",
 about_stat2: "with care",
 about_stat3: "beautiful pause",
 
+corporate_label: "Corporate Gifting",
+
+corporate_title: "Make generosity feel elevated.",
+
+corporate_text: "From team appreciation to client thank-you moments, our gifting experience brings warmth, polish and thoughtful detail to every occasion.",
+
+corporate_button: "Request a proposal",
+
+corporate_item1: "Thoughtful packaging for important moments",
+
+corporate_item2: "Flexible gifting for teams and events",
+
+corporate_item3: "Elegant presentation from start to finish",
+
   },
 
   fr: {
@@ -148,7 +162,7 @@ card3_text: "Créé pour ralentir le rythme de la journée et inviter à un prof
     highlight1: "Assemblé avec soin",
 highlight2: "Des détails raffinés",
 highlight3: "Conçu pour les rituels du quotidien",
-    nav_shop: "XXXXXXXX",
+    nav_shop: "Boutique",
     nav_about: "À propos",
     nav_journal: "Journal",
     nav_contact: "Contact",
@@ -283,6 +297,20 @@ about_stat1: "détails premium",
 about_stat2_title: "Assemblé",
 about_stat2: "avec soin",
 about_stat3: "belle pause",
+
+corporate_label: "Cadeaux d'entreprise",
+
+corporate_title: "Offrez avec élégance.",
+
+corporate_text: "Des remerciements aux clients aux cadeaux pour les équipes, notre expérience de cadeaux apporte chaleur, raffinement et attention à chaque occasion.",
+
+corporate_button: "Demander une proposition",
+
+corporate_item1: "Un emballage raffiné pour chaque occasion",
+
+corporate_item2: "Des solutions flexibles pour les équipes et les événements",
+
+corporate_item3: "Une présentation élégante du début à la fin",
   }
 };
 
