@@ -42,51 +42,51 @@ rel="stylesheet">
 <body>
 
 <header class="site-header">
+    <div class="container header-inner">
 
-    <div class="container">
+        <a href="index.html" class="logo" aria-label="Narcissus home">
+            <img
+                src="assets/images/logo.svg"
+                alt="Narcissus"
+                loading="eager"
+                decoding="async">
+        </a>
 
-        <div class="header-inner">
+        <nav class="main-nav" aria-label="Primary navigation">
 
-            <a href="index.html" class="logo">
-                <img src="assets/images/logo.svg" alt="Narcissus">
-            </a>
+            <a href="collection.html"
+               class="active"
+               data-i18n="nav_shop">Shop</a>
 
-            <nav class="main-nav">
+            <a href="index.html#about"
+               data-i18n="nav_about">About</a>
 
-                <ul>
+            <a href="index.html#journal"
+               data-i18n="nav_journal">Journal</a>
 
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
+            <a href="index.html#contact"
+               data-i18n="nav_contact">Contact</a>
 
-                    <li>
-                        <a href="collection.html" class="active">Collection</a>
-                    </li>
+            <div class="language-switcher">
+                <button id="lang-en" type="button">EN</button>
+                <button id="lang-fr" type="button">FR</button>
+            </div>
 
-                    <li>
-                        <a href="index.html#about">About</a>
-                    </li>
+        </nav>
 
-                    <li>
-                        <a href="index.html#contact">Contact</a>
-                    </li>
+        <button class="menu-toggle" aria-label="Open Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
-                </ul>
-
-            </nav>
-
-            <button class="menu-toggle" aria-label="Open menu">
-                ☰
-            </button>
-
-            <a href="index.html#products" class="header-cta">
-                Shop Now
-            </a>
-
-        </div>
+        <a href="collection.html"
+           class="header-cta"
+           data-i18n="cta_shop">
+            Shop Now
+        </a>
 
     </div>
-
 </header>
 
 <section class="collection-hero">
