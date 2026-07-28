@@ -153,9 +153,9 @@ if (lang === "en") {
     const key = element.getAttribute("data-i18n");
 
     if (translations[lang] && translations[lang][key]) {
-      element.innerHTML = translations[lang][key];
+        element.innerHTML = translations[lang][key];
     }
-  });
+});
 }
 
 document.addEventListener("DOMContentLoaded", () => {
