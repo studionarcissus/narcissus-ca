@@ -168,6 +168,37 @@ footer_faq: "FAQ",
 footer_privacy: "Privacy",
 footer_terms: "Terms",
 footer_instagram: "Instagram",
+corp_label: "CORPORATE GIFTING",
+corp_title: "Thoughtful gifts that leave a lasting impression.",
+corp_text: "Premium self-care gift boxes for employee appreciation, client thank-you gifts, holiday gifting, conferences, onboarding and meaningful moments.",
+corp_quote: "Request a Quote",
+corp_collection: "View Collection",
+
+corp_employee_title: "Employee Appreciation",
+corp_employee_text: "Celebrate your team with meaningful gifts that feel personal.",
+
+corp_client_title: "Client Gifts",
+corp_client_text: "Strengthen relationships with elegant, memorable gifting.",
+
+corp_holiday_title: "Holiday Gifts",
+corp_holiday_text: "Beautiful seasonal gifting made simple.",
+
+corp_events_title: "Events & Conferences",
+corp_events_text: "Premium welcome gifts and event appreciation boxes.",
+
+corp_why_title: "Why companies choose Narcissus",
+corp_why_text: "Every gift box is hand-packed in British Columbia with premium presentation and thoughtful details. Designed to help people slow down, reconnect and feel genuinely appreciated.",
+
+corp_li1: "✓ Hand-packed in British Columbia",
+corp_li2: "✓ Premium presentation",
+corp_li3: "✓ Metro Vancouver delivery",
+corp_li4: "✓ Canada-wide shipping",
+corp_li5: "✓ Flexible quantities",
+corp_li6: "✓ Personalized gifting support",
+
+corp_cta_title: "Let's create something memorable.",
+corp_cta_text: "We'd love to help you create a thoughtful gifting experience for your team or clients.",
+corp_cta_button: "Request Your Proposal",
 
   },
 
@@ -353,6 +384,54 @@ footer_faq: "FAQ",
 footer_privacy: "Confidentialité",
 footer_terms: "Conditions",
 footer_instagram: "Instagram",
+
+corp_label: "CADEAUX D'ENTREPRISE",
+
+corp_title: "Des cadeaux attentionnés qui laissent une impression durable.",
+
+corp_text: "Des coffrets de bien-être haut de gamme pour remercier vos employés, vos clients, célébrer les fêtes, les conférences, l'intégration des nouveaux employés et les moments importants.",
+
+corp_quote: "Demander un devis",
+
+corp_collection: "Voir la collection",
+
+corp_employee_title: "Reconnaissance des employés",
+
+corp_employee_text: "Remerciez votre équipe avec des cadeaux attentionnés qui semblent personnels.",
+
+corp_client_title: "Cadeaux pour les clients",
+
+corp_client_text: "Renforcez vos relations grâce à des cadeaux élégants et mémorables.",
+
+corp_holiday_title: "Cadeaux des Fêtes",
+
+corp_holiday_text: "De magnifiques cadeaux saisonniers, en toute simplicité.",
+
+corp_events_title: "Événements et conférences",
+
+corp_events_text: "Des coffrets d'accueil et de remerciement haut de gamme pour vos événements.",
+
+corp_why_title: "Pourquoi les entreprises choisissent Narcissus",
+
+corp_why_text: "Chaque coffret est assemblé à la main en Colombie-Britannique avec une présentation soignée et des détails raffinés. Conçu pour aider chacun à ralentir, se reconnecter et se sentir sincèrement apprécié.",
+
+corp_li1: "✓ Assemblé à la main en Colombie-Britannique",
+
+corp_li2: "✓ Présentation haut de gamme",
+
+corp_li3: "✓ Livraison dans le Grand Vancouver",
+
+corp_li4: "✓ Livraison partout au Canada",
+
+corp_li5: "✓ Quantités flexibles",
+
+corp_li6: "✓ Accompagnement personnalisé",
+
+corp_cta_title: "Créons quelque chose d'inoubliable.",
+
+corp_cta_text: "Nous serions ravis de créer une expérience de cadeaux attentionnée pour votre équipe ou vos clients.",
+
+corp_cta_button: "Demander votre proposition",
 
   }
 };
