@@ -65,6 +65,49 @@ buy_metro59: "Buy — Metro Vancouver • CA$59.99",
 buy_canada71: "Buy — Canada-wide • CA$71.99",
 
 product_meta: "✔ Ready to gift<br>✔ Hand-packed in Canada",
+journal_label: "From the journal",
+journal_title: "Small rituals for a softer season.",
+
+journal_meta1: "Self-care ritual",
+journal_card1: "How to create a Sunday reset",
+
+journal_meta2: "Mindful practice",
+journal_card2: "Three permission slips to keep close",
+
+journal_meta3: "Atmosphere",
+journal_card3: "Making your space feel restorative",
+contact_label: "Stay close",
+contact_title: "Bring more softness to your next moment.",
+contact_text: "Reach out for collections, gifting, or a beautifully tailored experience.",
+
+contact_email: "Email",
+contact_phone: "Phone",
+contact_instagram: "Instagram",
+contact_location: "Location",
+contact_city: "Burnaby, BC, Canada",
+
+back_top: "Back to top",
+back_home: "Back to Home",
+
+faq_page_title: "Questions, Answered.",
+
+faq_q1_page: "Where do you ship?",
+faq_a1_page: "We currently ship throughout Canada, with complimentary delivery across Metro Vancouver.",
+
+faq_q2_page: "Why are Canada-wide prices higher?",
+faq_a2_page: "Orders outside Metro Vancouver include our flat-rate shipping cost in the product price, so you won't see any additional shipping fees during checkout.",
+
+faq_q3_page: "How long does shipping take?",
+faq_a3_page: "Metro Vancouver deliveries typically arrive within 1–3 business days. Canada-wide deliveries generally arrive within 3–8 business days.",
+
+faq_q4_page: "Is every box gift-ready?",
+faq_a4_page: "Yes. Every Narcissus box arrives beautifully packaged and ready to gift.",
+
+faq_q5_page: "Do you include receipts inside the box?",
+faq_a5_page: "No. Pricing and invoices are never included inside gift packages.",
+
+faq_q6_page: "How can I contact you?",
+faq_a6_page: "Email us anytime at",
 
   },
 
@@ -134,6 +177,49 @@ buy_metro59: "Acheter — Grand Vancouver • 59,99 $ CA",
 buy_canada71: "Acheter — Partout au Canada • 71,99 $ CA",
 
 product_meta: "✔ Prêt à offrir<br>✔ Assemblé à la main au Canada",
+journal_label: "Du journal",
+journal_title: "De petits rituels pour une saison plus douce.",
+
+journal_meta1: "Rituel de bien-être",
+journal_card1: "Comment créer un rituel de réinitialisation du dimanche",
+
+journal_meta2: "Pratique de pleine conscience",
+journal_card2: "Trois cartes de permission à garder près de soi",
+
+journal_meta3: "Ambiance",
+journal_card3: "Créer un espace apaisant et réconfortant",
+contact_label: "Restons en contact",
+contact_title: "Apportez plus de douceur à votre prochain moment.",
+contact_text: "Contactez-nous pour nos collections, vos cadeaux ou une expérience soigneusement personnalisée.",
+
+contact_email: "Courriel",
+contact_phone: "Téléphone",
+contact_instagram: "Instagram",
+contact_location: "Emplacement",
+contact_city: "Burnaby, C.-B., Canada",
+
+back_top: "Retour en haut",
+back_home: "Retour à l'accueil",
+
+faq_page_title: "Toutes les réponses à vos questions.",
+
+faq_q1_page: "Où livrez-vous ?",
+faq_a1_page: "Nous livrons partout au Canada, avec la livraison gratuite dans le Grand Vancouver.",
+
+faq_q2_page: "Pourquoi les prix sont-ils plus élevés ailleurs au Canada ?",
+faq_a2_page: "Pour les commandes hors du Grand Vancouver, les frais d'expédition sont déjà inclus dans le prix du produit. Aucun frais supplémentaire ne sera ajouté au paiement.",
+
+faq_q3_page: "Combien de temps prend la livraison ?",
+faq_a3_page: "Les livraisons dans le Grand Vancouver prennent généralement de 1 à 3 jours ouvrables. Ailleurs au Canada, elles prennent généralement de 3 à 8 jours ouvrables.",
+
+faq_q4_page: "Les coffrets sont-ils prêts à offrir ?",
+faq_a4_page: "Oui. Chaque coffret Narcissus est soigneusement emballé et prêt à être offert.",
+
+faq_q5_page: "Incluez-vous un reçu dans le coffret ?",
+faq_a5_page: "Non. Les prix et les factures ne sont jamais inclus dans les coffrets cadeaux.",
+
+faq_q6_page: "Comment puis-je vous contacter ?",
+faq_a6_page: "Écrivez-nous à",
   }
 };
 

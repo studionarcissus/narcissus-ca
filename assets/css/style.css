@@ -921,3 +921,20 @@ border-color:#b89b5e;
 box-shadow:0 4px 12px rgba(184,155,94,.25);
 
 }
+.gallery-item img{
+
+filter:brightness(1.12);
+
+transition:
+transform .35s ease,
+filter .35s ease;
+
+}
+
+.gallery-item:hover img{
+
+filter:brightness(1.2);
+
+transform:scale(1.02);
+
+}
