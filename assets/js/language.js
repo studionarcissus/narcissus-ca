@@ -125,6 +125,14 @@ inside_label: "WHAT'S INSIDE",
 inside_title: "Thoughtfully Curated Details",
 
 collection_quote: "Luxury is giving yourself permission to pause.",
+about_label: "About Narcissus",
+about_title: "Designed to feel like a quiet exhale.",
+about_text: "We believe the most meaningful rituals are often the simplest: a cup of tea, a soft ribbon, a thoughtful note or a moment of stillness. Our boxes are created to hold that feeling.",
+
+about_stat1: "premium touches",
+about_stat2_title: "Hand-packed",
+about_stat2: "with care",
+about_stat3: "beautiful pause",
 
   },
 
@@ -267,6 +275,14 @@ inside_label: "À L'INTÉRIEUR",
 inside_title: "Des détails soigneusement sélectionnés",
 
 collection_quote: "Le luxe, c'est s'accorder la permission de faire une pause.",
+about_label: "À propos de Narcissus",
+about_title: "Conçu pour offrir la sensation d'un souffle apaisé.",
+about_text: "Nous croyons que les rituels les plus significatifs sont souvent les plus simples : une tasse de thé, un ruban doux, une note bienveillante ou un moment de calme. Nos coffrets sont créés pour accueillir cette sensation.",
+
+about_stat1: "détails premium",
+about_stat2_title: "Assemblé",
+about_stat2: "avec soin",
+about_stat3: "belle pause",
   }
 };
 
