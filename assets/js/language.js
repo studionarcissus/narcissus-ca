@@ -121,7 +121,7 @@ inside_label: "What's Inside",
 inside_title: "Thoughtfully Curated Details",
 inside_text: "Every Narcissus box is carefully assembled with premium treats, comforting rituals, and elegant finishing touches that transform an ordinary day into something memorable.",
 
-quote: "Luxury is not about having more. It's about feeling more."
+quote: "Luxury is not about having more. It's about feeling more.",
 collection_label: "THE COLLECTION",
 collection_title: "Moments Worth Keeping",
 
@@ -263,7 +263,7 @@ inside_label: "À l'intérieur",
 inside_title: "Des détails soigneusement sélectionnés",
 inside_text: "Chaque coffret Narcissus est assemblé avec soin, avec des douceurs, des rituels apaisants et des finitions élégantes pour transformer une journée ordinaire en un moment précieux.",
 
-quote: "Le véritable luxe, c'est ressentir davantage, pas posséder davantage."
+quote: "Le véritable luxe, c'est ressentir davantage, pas posséder davantage.",
 collection_label: "LA COLLECTION",
 collection_title: "Des moments à préserver",
 
