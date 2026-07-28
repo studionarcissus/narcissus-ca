@@ -137,6 +137,7 @@ product_meta: "✔ Prêt à offrir<br>✔ Assemblé à la main au Canada",
   }
 };
 
+function setLanguage(lang) {
 localStorage.setItem("language", lang);
 
 document.getElementById("lang-en")?.classList.remove("active");
@@ -160,6 +161,17 @@ if (lang === "en") {
 document.addEventListener("DOMContentLoaded", () => {
   const savedLanguage = localStorage.getItem("language") || "en";
   setLanguage(savedLanguage);
+});
+document.addEventListener("DOMContentLoaded", () => {
+
+  document.getElementById("lang-en")?.addEventListener("click", () => {
+    setLanguage("en");
+  });
+
+  document.getElementById("lang-fr")?.addEventListener("click", () => {
+    setLanguage("fr");
+  });
+
 });
 const languageButton =
 document.getElementById("languageButton");
