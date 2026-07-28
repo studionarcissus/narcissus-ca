@@ -108,20 +108,7 @@ faq_a5_page: "No. Pricing and invoices are never included inside gift packages."
 
 faq_q6_page: "How can I contact you?",
 faq_a6_page: "Email us anytime at",
-collection_label: "Our Collection",
-collection_title: "Moments Worth Keeping",
-collection_intro: "Thoughtfully curated gift boxes designed to create moments of calm, connection, and care.",
 
-filter_all: "All",
-filter_boxes: "Boxes",
-filter_lifestyle: "Lifestyle",
-filter_details: "Details",
-
-inside_label: "What's Inside",
-inside_title: "Thoughtfully Curated Details",
-inside_text: "Every Narcissus box is carefully assembled with premium treats, comforting rituals, and elegant finishing touches that transform an ordinary day into something memorable.",
-
-quote: "Luxury is not about having more. It's about feeling more.",
 collection_label: "THE COLLECTION",
 collection_title: "Moments Worth Keeping",
 
