@@ -148,6 +148,27 @@ corporate_item2: "Flexible gifting for teams and events",
 
 corporate_item3: "Elegant presentation from start to finish",
 
+faq_title: "Frequently Asked Questions",
+faq_subtitle: "Everything you need to know.",
+
+faq_q1: "Where do you ship?",
+faq_q2: "How long does shipping take?",
+faq_q3: "Can I send a box as a gift?",
+faq_q4: "Do you include pricing inside the package?",
+faq_q5: "How can I contact you?",
+
+footer_text: "Luxury self-care gift boxes designed to help you slow down, reconnect, and return to yourself.",
+
+footer_shop: "Shop",
+footer_corporate: "Corporate Gifting",
+footer_journal: "Journal",
+footer_contact: "Contact",
+footer_shipping: "Shipping",
+footer_faq: "FAQ",
+footer_privacy: "Privacy",
+footer_terms: "Terms",
+footer_instagram: "Instagram",
+
   },
 
   fr: {
@@ -311,6 +332,28 @@ corporate_item1: "Un emballage raffiné pour chaque occasion",
 corporate_item2: "Des solutions flexibles pour les équipes et les événements",
 
 corporate_item3: "Une présentation élégante du début à la fin",
+
+faq_title: "Questions fréquentes",
+faq_subtitle: "Tout ce que vous devez savoir.",
+
+faq_q1: "Où livrez-vous ?",
+faq_q2: "Combien de temps prend la livraison ?",
+faq_q3: "Puis-je envoyer un coffret en cadeau ?",
+faq_q4: "Le prix est-il inclus dans le colis ?",
+faq_q5: "Comment puis-je vous contacter ?",
+
+footer_text: "Des coffrets de soins de luxe conçus pour vous aider à ralentir, vous reconnecter et revenir à vous-même.",
+
+footer_shop: "Boutique",
+footer_corporate: "Cadeaux d'entreprise",
+footer_journal: "Journal",
+footer_contact: "Contact",
+footer_shipping: "Livraison",
+footer_faq: "FAQ",
+footer_privacy: "Confidentialité",
+footer_terms: "Conditions",
+footer_instagram: "Instagram",
+
   }
 };
 
