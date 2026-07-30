@@ -107,8 +107,7 @@ faq_q5_page: "Do you include receipts inside the box?",
 faq_a5_page: "No. Pricing and invoices are never included inside gift packages.",
 
 faq_q6_page: "How can I contact you?",
-faq_a6_page: "Email us anytime at",
-
+faq_a6_page: 'Email us anytime at <a href="mailto:hello@narcissus.ca">hello@narcissus.ca</a>',
 collection_label: "THE COLLECTION",
 collection_title: "Moments Worth Keeping",
 
@@ -310,7 +309,7 @@ faq_q5_page: "Incluez-vous un reçu dans le coffret ?",
 faq_a5_page: "Non. Les prix et les factures ne sont jamais inclus dans les coffrets cadeaux.",
 
 faq_q6_page: "Comment puis-je vous contacter ?",
-faq_a6_page: "Écrivez-nous à",
+faq_a6_page: 'Écrivez-nous à <a href="mailto:hello@narcissus.ca">hello@narcissus.ca</a>',
 collection_label: "Notre collection",
 collection_title: "Des moments à préserver",
 collection_intro: "Des coffrets soigneusement conçus pour créer des moments de calme, de connexion et de douceur.",
