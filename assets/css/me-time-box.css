@@ -464,9 +464,9 @@ color:#444;
 
 display:flex;
 
-gap:30px;
+gap:20px;
 
-margin-top:45px;
+margin-top:35px;
 
 flex-wrap:wrap;
 
@@ -594,6 +594,10 @@ font-size:46px;
 
 .science-cards{
 grid-template-columns:1fr;
+}
+
+.gift-grid{
+grid-template-columns:repeat(2,1fr);
 }
 
 }
@@ -751,6 +755,81 @@ grid-template-columns:repeat(2,1fr);
 .gift-grid{
 grid-template-columns:1fr;
 }
+
+}
+
+/* ==========================================
+   GIFT SECTION
+========================================== */
+
+.gift-section{
+padding:140px 0;
+background:#faf8f3;
+}
+
+.gift-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:34px;
+
+margin-top:70px;
+
+}
+
+.gift-card{
+
+background:#fff;
+
+padding:48px 40px;
+
+border-radius:22px;
+
+text-align:center;
+
+box-shadow:0 20px 60px rgba(0,0,0,.07);
+
+transition:.45s;
+
+}
+
+.gift-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 35px 90px rgba(0,0,0,.12);
+
+}
+
+.gift-icon{
+
+font-size:44px;
+
+margin-bottom:24px;
+
+}
+
+.gift-card h3{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:34px;
+
+margin-bottom:14px;
+
+font-weight:600;
+
+}
+
+.gift-card p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#666;
 
 }
 
