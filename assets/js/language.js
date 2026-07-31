@@ -199,6 +199,76 @@ corp_cta_title: "Let's create something memorable.",
 corp_cta_text: "We'd love to help you create a thoughtful gifting experience for your team or clients.",
 corp_cta_button: "Request Your Proposal",
 
+/* ===== Me Time Box ===== */
+
+me_hero_eyebrow: "NARCISSUS COLLECTION",
+me_hero_title: "Me Time Box",
+me_hero_subtitle: "A Luxury Ritual for Slowing Down",
+
+me_hero_text:
+"More than a gift box.<br><br>A gentle invitation to pause, breathe, and reconnect with yourself.<br><br>Every detail has been thoughtfully curated to transform an ordinary evening into a meaningful ritual of presence.",
+
+me_buy_now: "Begin Your Ritual",
+me_whats_inside: "What's Inside",
+
+me_trust1: "Secure Checkout",
+me_trust2: "Handcrafted in Canada",
+me_trust3: "Ships Canada Wide",
+
+me_story_intro:
+"Life moves fast.<br><br>Meetings. Notifications. Responsibilities.<br><br>We spend so much of our time caring for everyone else that we forget to care for ourselves.",
+
+me_story_highlight:
+"Me Time Box is a gentle reminder that slowing down is not a luxury.<br><br>It's a necessity.",
+
+
+me_inside_label: "WHAT'S INSIDE",
+me_inside_title: "Every Detail Has A Purpose",
+me_inside_intro: "Each item has been carefully selected to help create a quiet ritual of presence.",
+
+me_item1_title: "Earl Grey Tea",
+me_item1_text: "A warm beginning.<br><br>Slow your breathing with the first sip.",
+
+me_item2_title: "Vanilla Candle",
+me_item2_text: "Soft light.<br><br>Quiet thoughts.<br><br>A moment that belongs only to you.",
+
+me_item3_title: "Ferrero Rocher",
+me_item3_text: "A small reminder that joy doesn't need a special occasion.",
+
+me_item4_title: "Satin Scrunchie",
+me_item4_text: "Simple comfort.<br><br>Gentle elegance.<br><br>A small everyday luxury.",
+
+me_item5_title: "Permission Slip",
+me_item5_text: "Perhaps the most meaningful item in the box.<br><br>Permission to pause.<br>Permission to rest.<br>Permission to simply be.",
+
+me_item6_title: "Curated Playlist",
+me_item6_text: "Scan.<br><br>Press play.<br><br>Let the music slow the room around you.",
+
+me_experience_label: "THE EXPERIENCE",
+me_experience_title: "A Small Ritual That Changes Everything",
+
+me_experience_text:
+"Light the candle.<br>Brew the tea.<br>Put your phone away.<br><br>For just a few moments, choose yourself.",
+
+me_quote:
+"Luxury isn't about owning more.<br>It's about feeling more.",
+
+me_science_label: "THE SCIENCE",
+me_science_title: "Why Slowing Down Matters",
+
+me_science_text:
+"Research suggests that intentional moments of rest may reduce stress, improve emotional regulation, and increase overall well-being.<br><br>Me Time Box was designed to make those moments easier to create.",
+
+
+me_science_card1_title: "Presence",
+me_science_card1_text: "Mindful rituals encourage awareness of the present moment.",
+
+me_science_card2_title: "Rest",
+me_science_card2_text: "Short restorative breaks may help reduce mental fatigue.",
+
+me_science_card3_title: "Self-Compassion",
+me_science_card3_text: "Giving yourself permission to rest is an important act of kindness toward yourself.",
+
   },
 
   fr: {
@@ -432,6 +502,74 @@ corp_cta_text: "Nous serions ravis de créer une expérience de cadeaux attentio
 
 corp_cta_button: "Demander votre proposition",
 
+/* ===== Coffret Me Time ===== */
+
+me_hero_eyebrow: "COLLECTION NARCISSUS",
+me_hero_title: "Coffret Me Time",
+me_hero_subtitle: "Un rituel de luxe pour ralentir",
+
+me_hero_text:
+"Plus qu'un coffret cadeau.<br><br>Une douce invitation à faire une pause, à respirer et à vous reconnecter à vous-même.<br><br>Chaque détail a été soigneusement choisi pour transformer une soirée ordinaire en un véritable rituel de présence.",
+
+me_buy_now: "Commencer votre rituel",
+me_whats_inside: "Contenu du coffret",
+
+me_trust1: "Paiement sécurisé",
+me_trust2: "Fabriqué à la main au Canada",
+me_trust3: "Livraison partout au Canada",
+
+me_story_intro:
+"La vie va vite.<br><br>Réunions. Notifications. Responsabilités.<br><br>Nous passons tellement de temps à prendre soin des autres que nous oublions parfois de prendre soin de nous-mêmes.",
+
+me_story_highlight:
+"Le Coffret Me Time nous rappelle avec douceur que ralentir n'est pas un luxe.<br><br>C'est une nécessité.",
+
+
+me_inside_label: "À L'INTÉRIEUR",
+me_inside_title: "Chaque détail a une raison d'être",
+me_inside_intro: "Chaque élément a été soigneusement choisi pour créer un moment de calme et de présence.",
+
+me_item1_title: "Thé Earl Grey",
+me_item1_text: "Un début chaleureux.<br><br>Laissez votre respiration ralentir dès la première gorgée.",
+
+me_item2_title: "Bougie à la vanille",
+me_item2_text: "Une lumière douce.<br><br>Des pensées paisibles.<br><br>Un instant rien que pour vous.",
+
+me_item3_title: "Ferrero Rocher",
+me_item3_text: "Un doux rappel que la joie n'a pas besoin d'occasion particulière.",
+
+me_item4_title: "Chouchou en satin",
+me_item4_text: "Confort absolu.<br><br>Élégance discrète.<br><br>Un petit luxe du quotidien.",
+
+me_item5_title: "Carte Permission",
+me_item5_text: "Peut-être l'élément le plus précieux du coffret.<br><br>La permission de faire une pause.<br>La permission de vous reposer.<br>La permission d'être simplement vous-même.",
+
+me_item6_title: "Playlist exclusive",
+me_item6_text: "Scannez.<br><br>Appuyez sur lecture.<br><br>Laissez la musique ralentir le monde autour de vous.",
+
+me_experience_label: "L'EXPÉRIENCE",
+me_experience_title: "Un petit rituel qui change tout",
+
+me_experience_text:
+"Allumez la bougie.<br>Préparez le thé.<br>Éloignez votre téléphone.<br><br>Pendant quelques instants, choisissez-vous.",
+
+me_quote:
+"Le luxe ne consiste pas à posséder davantage.<br>Il consiste à ressentir davantage.",
+
+me_science_label: "LA SCIENCE",
+me_science_title: "Pourquoi ralentir est important",
+
+me_science_text:
+"Les recherches suggèrent que prendre intentionnellement des moments de repos peut réduire le stress, améliorer la régulation émotionnelle et favoriser le bien-être.<br><br>Le Coffret Me Time a été conçu pour rendre ces moments plus faciles à créer.",
+
+me_science_card1_title: "Présence",
+me_science_card1_text: "Les rituels de pleine conscience favorisent l'attention portée au moment présent.",
+
+me_science_card2_title: "Repos",
+me_science_card2_text: "De courtes pauses réparatrices peuvent aider à réduire la fatigue mentale.",
+
+me_science_card3_title: "Bienveillance envers soi",
+me_science_card3_text: "S'accorder la permission de se reposer est un véritable acte de bienveillance envers soi-même.",
   }
 };
 
