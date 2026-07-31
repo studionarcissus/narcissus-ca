@@ -269,6 +269,64 @@ me_science_card2_text: "Short restorative breaks may help reduce mental fatigue.
 me_science_card3_title: "Self-Compassion",
 me_science_card3_text: "Giving yourself permission to rest is an important act of kindness toward yourself.",
 
+me_quote2:"The most meaningful luxury is having permission to slow down.",
+
+me_gift_label:"PERFECT FOR",
+me_gift_title:"Meaningful Moments Deserve Meaningful Gifts",
+me_gift_intro:"Whether you're celebrating someone you love or reminding yourself to slow down, Me Time Box was designed to make ordinary moments feel extraordinary.",
+
+me_gift1_title:"Birthdays",
+me_gift1_text:"A thoughtful alternative to ordinary gifts.",
+
+me_gift2_title:"Thinking of You",
+me_gift2_text:"Sometimes the smallest gesture means the most.",
+
+me_gift3_title:"Self-Care",
+me_gift3_text:"Create space to reconnect with yourself.",
+
+me_gift4_title:"Employee Appreciation",
+me_gift4_text:"A memorable way to say thank you.",
+
+me_gift5_title:"Mother's Day",
+me_gift5_text:"Celebrate someone who always gives to others.",
+
+me_gift6_title:"Just Because",
+me_gift6_text:"The best gifts don't always need a reason.",
+
+me_reviews_label:"CUSTOMER LOVE",
+me_reviews_title:"Reviews Coming Soon",
+me_reviews_text:"Our first customers are beginning to receive their boxes. We can't wait to share their stories.",
+
+
+me_faq_label:"FAQ",
+me_faq_title:"Frequently Asked Questions",
+
+me_faq1_q:"How long does shipping take?",
+me_faq1_a:"Metro Vancouver orders usually arrive within 1–3 business days. Orders across Canada generally arrive within 3–7 business days.",
+
+me_faq2_q:"Can I send it directly as a gift?",
+me_faq2_a:"Yes. Simply enter the recipient's shipping address during checkout.",
+
+me_faq3_q:"Does the box include a receipt?",
+me_faq3_a:"No pricing information is included inside the package.",
+
+me_faq4_q:"Is every box assembled by hand?",
+me_faq4_a:"Yes. Every Narcissus box is carefully packed and inspected before shipping.",
+
+me_related_label:"DISCOVER MORE",
+me_related_title:"You May Also Love",
+me_related_product:"Rainbow Me Time Box",
+me_related_text:"Celebrate authenticity, joy, and meaningful self-care.",
+me_related_button:"Explore",
+
+me_buy_label:"READY TO PAUSE?",
+me_buy_title:"Bring Home Your Me Time Box",
+me_buy_text:"A thoughtful gift for yourself or someone you love. Handcrafted in Canada. Carefully packed. Ready to ship.",
+
+me_buy_vancouver:"Metro Vancouver",
+me_buy_canada:"Anywhere in Canada",
+
+
   },
 
   fr: {
@@ -570,6 +628,65 @@ me_science_card2_text: "De courtes pauses réparatrices peuvent aider à réduir
 
 me_science_card3_title: "Bienveillance envers soi",
 me_science_card3_text: "S'accorder la permission de se reposer est un véritable acte de bienveillance envers soi-même.",
+
+
+me_quote2:"Le plus grand luxe est de s'accorder la permission de ralentir.",
+
+me_gift_label:"PARFAIT POUR",
+me_gift_title:"Les moments précieux méritent des cadeaux précieux",
+me_gift_intro:"Que vous célébriez une personne chère ou que vous vous rappeliez de ralentir, Me Time Box transforme les instants ordinaires en moments inoubliables.",
+
+me_gift1_title:"Anniversaires",
+me_gift1_text:"Une alternative raffinée aux cadeaux ordinaires.",
+
+me_gift2_title:"Je pense à toi",
+me_gift2_text:"Les plus petits gestes sont souvent les plus précieux.",
+
+me_gift3_title:"Prendre soin de soi",
+me_gift3_text:"Accordez-vous un moment pour vous reconnecter à vous-même.",
+
+me_gift4_title:"Reconnaissance des employés",
+me_gift4_text:"Une façon mémorable de dire merci.",
+
+me_gift5_title:"Fête des Mères",
+me_gift5_text:"Célébrez celle qui donne toujours aux autres.",
+
+me_gift6_title:"Juste comme ça",
+me_gift6_text:"Les plus beaux cadeaux n'ont pas toujours besoin d'une raison.",
+
+me_reviews_label:"L'AVIS DE NOS CLIENTS",
+me_reviews_title:"Avis à venir",
+me_reviews_text:"Nos premiers clients commencent à recevoir leur coffret. Nous avons hâte de partager leurs témoignages.",
+
+
+me_faq_label:"FAQ",
+me_faq_title:"Questions fréquentes",
+
+me_faq1_q:"Combien de temps prend la livraison ?",
+me_faq1_a:"Les commandes dans le Grand Vancouver arrivent généralement sous 1 à 3 jours ouvrables. Les commandes partout au Canada arrivent généralement sous 3 à 7 jours ouvrables.",
+
+me_faq2_q:"Puis-je l'envoyer directement comme cadeau ?",
+me_faq2_a:"Oui. Il suffit d'indiquer l'adresse du destinataire lors du paiement.",
+
+me_faq3_q:"Le coffret contient-il un reçu ?",
+me_faq3_a:"Aucune information sur le prix n'est incluse dans le colis.",
+
+me_faq4_q:"Chaque coffret est-il assemblé à la main ?",
+me_faq4_a:"Oui. Chaque coffret Narcissus est soigneusement préparé et vérifié avant l'expédition.",
+
+me_related_label:"DÉCOUVRIR PLUS",
+me_related_title:"Vous aimerez aussi",
+me_related_product:"Rainbow Me Time Box",
+me_related_text:"Célébrez l'authenticité, la joie et le bien-être.",
+me_related_button:"Découvrir",
+
+me_buy_label:"PRÊT(E) À FAIRE UNE PAUSE ?",
+me_buy_title:"Offrez-vous votre Me Time Box",
+me_buy_text:"Un cadeau attentionné pour vous ou une personne que vous aimez. Fabriqué à la main au Canada. Soigneusement emballé. Prêt à être expédié.",
+
+me_buy_vancouver:"Grand Vancouver",
+me_buy_canada:"Partout au Canada",
+
   }
 };
 
