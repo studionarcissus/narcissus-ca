@@ -1113,89 +1113,48 @@ footer_returns: "Retours",
   }
 };
 
+
+
 function setLanguage(lang) {
-localStorage.setItem("language", lang);
+  if (!translations[lang]) {
+    lang = "en";
+  }
 
-document.getElementById("lang-en")?.classList.remove("active");
-document.getElementById("lang-fr")?.classList.remove("active");
+  localStorage.setItem("language", lang);
 
-if (lang === "en") {
-    document.getElementById("lang-en")?.classList.add("active");
-} else {
-    document.getElementById("lang-fr")?.classList.add("active");
-}
+  document.documentElement.lang = lang;
+
+  const enButton = document.getElementById("lang-en");
+  const frButton = document.getElementById("lang-fr");
+
+  enButton?.classList.toggle("active", lang === "en");
+  frButton?.classList.toggle("active", lang === "fr");
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
+    const translation = translations[lang][key];
 
-    if (translations[lang] && translations[lang][key]) {
-        element.innerHTML = translations[lang][key];
+    if (translation !== undefined) {
+      element.innerHTML = translation;
     }
-});
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const savedLanguage = localStorage.getItem("language") || "en";
-  setLanguage(savedLanguage);
-});
-document.addEventListener("DOMContentLoaded", () => {
+  const enButton = document.getElementById("lang-en");
+  const frButton = document.getElementById("lang-fr");
 
-  document.getElementById("lang-en")?.addEventListener("click", () => {
+  enButton?.addEventListener("click", (event) => {
+    event.preventDefault();
     setLanguage("en");
   });
 
-  document.getElementById("lang-fr")?.addEventListener("click", () => {
+  frButton?.addEventListener("click", (event) => {
+    event.preventDefault();
     setLanguage("fr");
   });
 
+  const savedLanguage = localStorage.getItem("language");
+
+  setLanguage(savedLanguage === "fr" ? "fr" : "en");
 });
-const languageButton =
-document.getElementById("languageButton");
-
-const languageMenu =
-document.getElementById("languageMenu");
-
-if(languageButton){
-
-languageButton.onclick=function(){
-
-languageMenu.style.display=
-languageMenu.style.display==="block"
-?
-"none"
-:
-"block";
-
-}
-
-document.addEventListener("click",function(e){
-
-if(!languageButton.contains(e.target)
-&&
-!languageMenu.contains(e.target))
-
-languageMenu.style.display="none";
-
-});
-
-}
-
-function changeLanguage(lang){
-
-setLanguage(lang);
-
-document.getElementById("currentLanguage").textContent=
-
-lang==="en"
-
-?
-
-"English"
-
-:
-
-"Français";
-
-languageMenu.style.display="none";
-
-}
