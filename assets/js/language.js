@@ -532,6 +532,9 @@ returns_damage_item3:
 "Clear photos of the product and its packaging",
 
 
+footer_returns: "Returns",
+
+
 
 
   },
@@ -1102,6 +1105,8 @@ returns_damage_item3:
 "Des photos claires du produit et de son emballage",
 
 
+
+footer_returns: "Retours",
 
 
 
