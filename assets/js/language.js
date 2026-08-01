@@ -326,6 +326,213 @@ me_buy_text:"A thoughtful gift for yourself or someone you love. Handcrafted in 
 me_buy_vancouver:"Metro Vancouver",
 me_buy_canada:"Anywhere in Canada",
 
+me_final_title:"Permission. Pause. Presence.",
+me_final_text:"Sometimes the greatest gift isn't something you receive. It's permission to slow down.",
+me_final_button:"Explore the Collection",
+
+footer_brand:"Narcissus",
+footer_text:"Luxury self-care experiences created with intention.",
+
+footer_home:"Home",
+footer_collection:"Collection",
+footer_corporate:"Corporate",
+footer_contact:"Contact",
+
+footer_copy:"© 2026 Narcissus. All rights reserved.",
+
+
+
+/* ===== Rainbow ===== */
+
+rainbow_hero_eyebrow:"NARCISSUS COLLECTION",
+
+rainbow_hero_title:"Rainbow Me Time Box",
+
+rainbow_hero_subtitle:"Celebrate Who You Are",
+
+rainbow_hero_text:"More than a gift box.<br><br>A celebration of authenticity, kindness, belonging, and joy.<br><br>Created to remind every person that they deserve love exactly as they are.",
+
+rainbow_buy_now:"Begin Your Ritual",
+
+rainbow_whats_inside:"What's Inside",
+
+rainbow_trust1:"Secure Checkout",
+
+rainbow_trust2:"Handcrafted in Canada",
+
+rainbow_trust3:"Ships Canada Wide",
+
+rainbow_story_intro:"Everyone deserves a place where they feel accepted, seen, and celebrated.",
+
+rainbow_story_highlight:"Rainbow Me Time Box is a reminder that your identity is something to celebrate—not something to hide.",
+
+
+rainbow_faq_label:"FAQ",
+
+rainbow_faq_title:"Frequently Asked Questions",
+
+rainbow_faq1_q:"How long does shipping take?",
+
+rainbow_faq1_a:"Metro Vancouver orders usually arrive within 1–3 business days. Orders across Canada generally arrive within 3–7 business days.",
+
+rainbow_faq2_q:"Can I send it directly as a gift?",
+
+rainbow_faq2_a:"Yes. Simply enter the recipient's shipping address during checkout.",
+
+rainbow_faq3_q:"Does the box include a receipt?",
+
+rainbow_faq3_a:"No pricing information is included inside the package.",
+
+rainbow_faq4_q:"Is every box assembled by hand?",
+
+rainbow_faq4_a:"Yes. Every Narcissus box is carefully packed and inspected before shipping.",
+
+
+rainbow_related_label:"DISCOVER MORE",
+rainbow_related_title:"You May Also Love",
+rainbow_related_product:"Me Time Box",
+rainbow_related_text:"A luxurious self-care ritual for slowing down.",
+rainbow_related_button:"Explore",
+
+rainbow_buy_label:"READY TO CELEBRATE?",
+rainbow_buy_title:"Bring Home Your Rainbow Me Time Box",
+rainbow_buy_text:"Handcrafted in Canada. Thoughtfully packed. Ready to brighten someone's day.",
+rainbow_buy_vancouver:"Metro Vancouver",
+rainbow_buy_canada:"Anywhere in Canada",
+
+rainbow_final_title:"Celebrate. Belong. Shine.",
+rainbow_final_text:"You deserve moments that remind you exactly how wonderful you already are.",
+rainbow_final_button:"Explore the Collection",
+
+metro_notice: "For Metro Vancouver delivery addresses only. Orders placed with delivery addresses outside this area may be cancelled and fully refunded.",
+
+
+returns_title: "Returns & Refund Policy",
+
+returns_damaged_title: "Damaged or Incorrect Orders",
+
+returns_returns_title: "Returns",
+
+returns_refunds_title: "Refunds",
+
+returns_shipping_title: "Shipping Charges",
+
+returns_questions_title: "Questions",
+
+
+returns_intro:
+"If your order arrives damaged or incorrect, we're here to help.",
+
+returns_damaged_text:
+"If the issue is confirmed, we will gladly provide a replacement or a full refund at no additional cost.",
+
+
+returns_returns_text:
+"If you change your mind, you may request a return within <strong>14 days</strong> of receiving your order.",
+
+
+returns_refunds_text:
+"Once your returned item has been received and inspected, we will notify you of the outcome.",
+
+
+returns_shipping_text:
+"If you are returning an item, the cost of return shipping is your responsibility unless the item arrived damaged or we made an error with your order.",
+
+
+returns_questions_text:
+"If you have any questions regarding returns or refunds, we're happy to help.",
+
+
+footer_tagline: "Permission • Pause • Presence",
+
+
+
+shipping_label: "Shipping Information",
+shipping_title: "Shipping & Delivery",
+
+shipping_intro:
+"Every Narcissus box is hand-packed with care in British Columbia. We currently ship across Canada.",
+
+shipping_metro_title: "Metro Vancouver",
+shipping_metro_text:
+"Complimentary delivery on all orders. Estimated delivery: 1–3 business days.",
+
+shipping_canada_title: "Canada-wide",
+shipping_canada_text:
+"Shipping is included in the listed Canada-wide price. Estimated delivery: 3–8 business days.",
+
+shipping_processing_title: "Processing Time",
+shipping_processing_text:
+"Orders are typically prepared within 1–2 business days before shipment.",
+
+shipping_questions_title: "Questions?",
+shipping_questions_text: "Please contact us anytime at",
+
+
+returns_returns_conditions:
+"To qualify for a return:",
+
+returns_condition1:
+"The gift box must be unopened and unused.",
+
+returns_condition2:
+"All original packaging must be included.",
+
+returns_condition3:
+"The product must be returned in its original condition.",
+
+returns_condition4:
+"Proof of purchase is required.",
+
+returns_return_shipping:
+"<strong>Unless the item is damaged or we made an error, customers are responsible for all return shipping costs.</strong>",
+
+returns_non_returnable_title:
+"Non-Returnable Items",
+
+returns_non_returnable_text:
+"For hygiene and food safety reasons, we cannot accept returns of:",
+
+returns_refunds_text2:
+"If your refund is approved, it will be issued to your original payment method. Please note that your bank or credit card provider may require several business days to process the refund.",
+
+returns_questions_contact:
+"<strong>support@narcissus.ca</strong>",
+
+
+returns_nonreturn1: "Opened gift boxes",
+returns_nonreturn2: "Food products",
+returns_nonreturn3: "Used personal care items",
+returns_nonreturn4: "Gift cards",
+returns_nonreturn5: "Sale or clearance items",
+
+
+returns_last_updated:
+"<strong>Last updated:</strong> July 31, 2026",
+
+
+returns_page_intro:
+"At <strong>Narcissus</strong>, we want every order to arrive beautifully and safely. If something isn't right, we're here to help.",
+
+
+
+returns_damage_email:
+"Please email us at:",
+
+returns_damage_include:
+"To help us resolve the issue quickly, please include:",
+
+returns_damage_item1:
+"Your order number",
+
+returns_damage_item2:
+"A brief description of the issue",
+
+returns_damage_item3:
+"Clear photos of the product and its packaging",
+
+
+
 
   },
 
@@ -686,6 +893,217 @@ me_buy_text:"Un cadeau attentionné pour vous ou une personne que vous aimez. Fa
 
 me_buy_vancouver:"Grand Vancouver",
 me_buy_canada:"Partout au Canada",
+
+me_final_title:"Permission. Pause. Présence.",
+me_final_text:"Parfois, le plus beau cadeau n'est pas un objet. C'est la permission de ralentir.",
+me_final_button:"Découvrir la collection",
+
+footer_brand:"Narcissus",
+footer_text:"Des expériences de bien-être luxueuses créées avec intention.",
+
+footer_home:"Accueil",
+footer_collection:"Collection",
+footer_corporate:"Entreprise",
+footer_contact:"Contact",
+
+footer_copy:"© 2026 Narcissus. Tous droits réservés.",
+
+
+rainbow_hero_eyebrow:"COLLECTION NARCISSUS",
+
+rainbow_hero_title:"Coffret Rainbow Me Time",
+
+rainbow_hero_subtitle:"Célébrez qui vous êtes",
+
+rainbow_hero_text:"Plus qu'un coffret cadeau.<br><br>Une célébration de l'authenticité, de la bienveillance, de l'appartenance et de la joie.<br><br>Créé pour rappeler à chacun qu'il mérite d'être aimé exactement tel qu'il est.",
+
+rainbow_buy_now:"Commencer votre rituel",
+
+rainbow_whats_inside:"Contenu du coffret",
+
+rainbow_trust1:"Paiement sécurisé",
+
+rainbow_trust2:"Fabriqué à la main au Canada",
+
+rainbow_trust3:"Livraison partout au Canada",
+
+rainbow_story_intro:"Chaque personne mérite un endroit où elle se sent acceptée, vue et célébrée.",
+
+rainbow_story_highlight:"Rainbow Me Time Box rappelle que votre identité mérite d'être célébrée, jamais cachée.",
+
+
+rainbow_faq_label:"FAQ",
+
+rainbow_faq_title:"Questions fréquentes",
+
+rainbow_faq1_q:"Combien de temps prend la livraison ?",
+
+rainbow_faq1_a:"Les commandes dans le Grand Vancouver arrivent généralement sous 1 à 3 jours ouvrables. Les commandes partout au Canada arrivent généralement sous 3 à 7 jours ouvrables.",
+
+rainbow_faq2_q:"Puis-je l'envoyer directement comme cadeau ?",
+
+rainbow_faq2_a:"Oui. Il suffit d'indiquer l'adresse du destinataire lors du paiement.",
+
+rainbow_faq3_q:"Le coffret contient-il un reçu ?",
+
+rainbow_faq3_a:"Aucune information sur le prix n'est incluse dans le colis.",
+
+rainbow_faq4_q:"Chaque coffret est-il assemblé à la main ?",
+
+rainbow_faq4_a:"Oui. Chaque coffret Narcissus est soigneusement préparé et vérifié avant l'expédition.",
+
+
+
+rainbow_related_label:"DÉCOUVRIR PLUS",
+rainbow_related_title:"Vous aimerez aussi",
+rainbow_related_product:"Me Time Box",
+rainbow_related_text:"Un rituel de bien-être luxueux pour ralentir.",
+rainbow_related_button:"Découvrir",
+
+rainbow_buy_label:"PRÊT(E) À CÉLÉBRER ?",
+rainbow_buy_title:"Offrez-vous votre Rainbow Me Time Box",
+rainbow_buy_text:"Fabriqué à la main au Canada. Soigneusement emballé. Prêt à illuminer la journée de quelqu'un.",
+rainbow_buy_vancouver:"Grand Vancouver",
+rainbow_buy_canada:"Partout au Canada",
+
+rainbow_final_title:"Célébrez. Appartenez. Rayonnez.",
+rainbow_final_text:"Vous méritez des moments qui vous rappellent à quel point vous êtes extraordinaire.",
+rainbow_final_button:"Découvrir la collection",
+
+
+metro_notice: "Réservé aux adresses de livraison du Grand Vancouver. Les commandes expédiées en dehors de cette zone peuvent être annulées et entièrement remboursées.",
+
+
+
+returns_title: "Politique de retours et de remboursements",
+
+returns_damaged_title: "Commandes endommagées ou incorrectes",
+
+
+returns_returns_title: "Retours",
+
+returns_refunds_title: "Remboursements",
+
+returns_shipping_title: "Frais d'expédition",
+
+returns_questions_title: "Questions",
+
+
+returns_intro:
+"Si votre commande arrive endommagée ou incorrecte, nous sommes là pour vous aider.",
+
+
+returns_damaged_text:
+"Si le problème est confirmé, nous vous proposerons avec plaisir un remplacement ou un remboursement intégral, sans frais supplémentaires.",
+
+returns_returns_text:
+"Si vous changez d'avis, vous pouvez demander un retour dans les <strong>14 jours</strong> suivant la réception de votre commande.",
+
+
+returns_refunds_text:
+"Une fois votre article retourné reçu et inspecté, nous vous informerons du résultat.",
+
+
+returns_shipping_text:
+"Si vous retournez un article, les frais de retour sont à votre charge, sauf si l'article est arrivé endommagé ou si nous avons commis une erreur dans votre commande.",
+
+
+returns_questions_text:
+"Pour toute question concernant les retours ou les remboursements, nous sommes à votre disposition.",
+
+
+
+footer_tagline: "Permission • Pause • Presence",
+
+
+
+shipping_label: "Informations sur la livraison",
+shipping_title: "Expédition et livraison",
+
+shipping_intro:
+"Chaque coffret Narcissus est soigneusement préparé à la main en Colombie-Britannique. Nous livrons actuellement partout au Canada.",
+
+shipping_metro_title: "Grand Vancouver",
+shipping_metro_text:
+"Livraison gratuite pour toutes les commandes. Délai de livraison estimé : 1 à 3 jours ouvrables.",
+
+shipping_canada_title: "Partout au Canada",
+shipping_canada_text:
+"Les frais de livraison sont inclus dans le prix affiché pour les commandes ailleurs au Canada. Délai de livraison estimé : 3 à 8 jours ouvrables.",
+
+shipping_processing_title: "Délai de préparation",
+shipping_processing_text:
+"Les commandes sont généralement préparées dans un délai de 1 à 2 jours ouvrables avant leur expédition.",
+
+shipping_questions_title: "Des questions ?",
+shipping_questions_text: "Vous pouvez nous contacter à tout moment à",
+
+
+returns_returns_conditions:
+"Pour être admissible à un retour :",
+
+returns_condition1:
+"Le coffret cadeau doit être non ouvert et non utilisé.",
+
+returns_condition2:
+"Tous les emballages d'origine doivent être inclus.",
+
+returns_condition3:
+"Le produit doit être retourné dans son état d'origine.",
+
+returns_condition4:
+"Une preuve d'achat est requise.",
+
+returns_return_shipping:
+"<strong>Sauf si l'article est endommagé ou si nous avons commis une erreur, les frais d'expédition du retour sont à la charge du client.</strong>",
+
+returns_non_returnable_title:
+"Articles non retournables",
+
+returns_non_returnable_text:
+"Pour des raisons d'hygiène et de sécurité alimentaire, nous ne pouvons pas accepter le retour des articles suivants :",
+
+returns_refunds_text2:
+"Si votre remboursement est approuvé, il sera effectué sur votre mode de paiement initial. Veuillez noter que votre banque ou l'émetteur de votre carte de crédit peut prendre plusieurs jours ouvrables pour traiter le remboursement.",
+
+returns_questions_contact:
+"<strong>support@narcissus.ca</strong>",
+
+
+returns_nonreturn1: "Coffrets cadeaux ouverts",
+returns_nonreturn2: "Produits alimentaires",
+returns_nonreturn3: "Articles de soins personnels utilisés",
+returns_nonreturn4: "Cartes-cadeaux",
+returns_nonreturn5: "Articles en solde ou en liquidation",
+
+
+returns_last_updated:
+"<strong>Dernière mise à jour :</strong> 31 juillet 2026",
+
+
+returns_page_intro:
+"Chez <strong>Narcissus</strong>, nous souhaitons que chaque commande vous parvienne en parfait état. Si quelque chose ne va pas, nous sommes là pour vous aider.",
+
+
+
+returns_damage_email:
+"Veuillez nous écrire à :",
+
+returns_damage_include:
+"Pour nous aider à résoudre le problème rapidement, veuillez inclure :",
+
+returns_damage_item1:
+"Votre numéro de commande",
+
+returns_damage_item2:
+"Une brève description du problème",
+
+returns_damage_item3:
+"Des photos claires du produit et de son emballage",
+
+
+
+
 
   }
 };

@@ -14,82 +14,111 @@
 <script src="assets/js/language.js"></script>
 <body>
 
-<header class="site-header">
-    <div class="container header-inner">
 
-        <a href="index.html" class="logo">
-            <img src="assets/images/logo.svg" alt="Narcissus">
-        </a>
+    <!-- HEADER -->
 
-        <a href="index.html" class="header-cta">
-            Back to Home
-        </a>
+ <header class="site-header">
+        <div class="container header-inner">
+        <a href="#top" class="logo" aria-label="Narcissus home">
+    <img
+    src="assets/images/logo.svg"
+    alt="Narcissus"
+    loading="eager"
+    decoding="async">
+</a>
 
-    </div>
-</header>
+            <nav class="main-nav" aria-label="Primary navigation">
+                <a href="collection.html"
+   class="active"
+   data-i18n="nav_shop">Shop</a>
+                <a href="index.html#about" data-i18n="nav_about">About</a>
+                <a href="index.html#journal" data-i18n="nav_journal">Journal</a>
+                <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+       </nav>
+
+       <div class="language-switcher">
+    <button id="lang-en" class="lang-btn" data-lang="en">EN</button>
+
+    <button id="lang-fr" class="lang-btn" data-lang="fr">FR</button>
+</div>
+        
+
+            <button class="menu-toggle" aria-label="Open Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <a href="collection.html"
+            class="header-cta"
+            data-i18n="cta_shop">
+            Shop Now
+            </a>
+        </div>
+    </header>
 
 <main>
-    <h2>Shipping & Delivery</h2>
-
-<p>
-We believe in simple, transparent pricing.
-</p>
-
-<p>
-<strong>Metro Vancouver</strong> orders include free local delivery.
-</p>
-
-<p>
-For the rest of Canada, our product prices already include a flat-rate shipping fee. That means there are no surprise shipping charges added during checkout.
-</p>
-
-<p>
-Your total at checkout is the final price you'll pay.
-</p>
+    
 
 <section class="section">
 
 <div class="container" style="max-width:800px;">
 
-<p class="section-label">
+<p class="section-label" data-i18n="shipping_label">
 Shipping Information
 </p>
 
-<h1>Shipping & Delivery</h1>
+<h1 data-i18n="shipping_title">
+Shipping & Delivery
+</h1>
 
-<p>
+<p data-i18n="shipping_intro">
 Every Narcissus box is hand-packed with care in British Columbia.
 We currently ship across Canada.
 </p>
 
-<h3>Metro Vancouver</h3>
+<h3 data-i18n="shipping_metro_title">
+Metro Vancouver
+</h3>
 
-<p>
+<p data-i18n="shipping_metro_text">
 Complimentary delivery on all orders.
 Estimated delivery: 1–3 business days.
 </p>
 
-<h3>Canada-wide</h3>
+<h3 data-i18n="shipping_canada_title">
+Canada-wide
+</h3>
 
-<p>
+<p data-i18n="shipping_canada_text">
 Shipping is included in the listed Canada-wide price.
 Estimated delivery: 3–8 business days.
 </p>
 
-<h3>Processing Time</h3>
+<h3 data-i18n="shipping_processing_title">
+Processing Time
+</h3>
 
-<p>
+<p data-i18n="shipping_processing_text">
 Orders are typically prepared within 1–2 business days before shipment.
 </p>
 
-<h3>Questions?</h3>
+<h3 data-i18n="shipping_questions_title">
+Questions?
+</h3>
+
 
 <p>
-Please contact us anytime at
-<a href="mailto:hello@narcissus.ca">
-hello@narcissus.ca
-</a>
+    <span data-i18n="shipping_questions_text">
+        Please contact us anytime at
+    </span>
+
+    <a href="mailto:hello@narcissus.ca">
+        hello@narcissus.ca
+    </a>
 </p>
+
+
 
 </div>
 
@@ -97,17 +126,52 @@ hello@narcissus.ca
 
 </main>
 
+
 <footer class="site-footer">
-
-<div class="container footer-inner">
-
-<p>
-© <span id="year"></span> Narcissus
+        <div class="container footer-inner">
+      <p data-i18n="footer_copyright">
+© <span id="year"></span> Narcissus.<br>
+<span data-i18n="footer_tagline">
+Permission • Pause • Presence
+</span>
 </p>
+<div class="footer-brand">
+    <h3>Narcissus</h3>
 
+    <p data-i18n="footer_text">
+        Luxury self-care gift boxes designed to help you slow down,
+        reconnect, and return to yourself.
+    </p>
 </div>
+            <div class="footer-links">
+       <a href="collection.html" data-i18n="footer_shop">Shop</a>
 
-</footer>
+<a href="corporate.html" data-i18n="footer_corporate">Corporate Gifting</a>
+
+<a href="journal.html" data-i18n="footer_journal">Journal</a>
+
+<a href="contact.html" data-i18n="footer_contact">Contact</a>
+
+<a href="shipping.html" data-i18n="footer_shipping">Shipping</a>
+
+<a href="faq.html" data-i18n="footer_faq">FAQ</a>
+
+<a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+
+<a href="terms.html" data-i18n="footer_terms">Terms</a>
+
+<a href="https://www.instagram.com/studionarcissus/"
+   target="_blank"
+   rel="noopener noreferrer"
+   data-i18n="footer_instagram">
+    Instagram
+</a>
+
+            </div>
+        </div>
+    </footer>
+
+
 
 <script src="assets/js/app.js"></script>
 
